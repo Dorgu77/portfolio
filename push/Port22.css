@@ -1,0 +1,426 @@
+body {
+    height: 100%;
+    background-color: rgb(7, 77, 77);
+    display: flex;
+    opacity: 0.9;
+    flex-direction: column;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#n4 {
+    right: 120px;
+    position: absolute;
+    text-shadow: 2px 2px 4px blue, -2px -2px 6px blue;
+    font-size: 30px;
+    color: white;
+}
+
+#n10 {
+    top: 20px;
+    position: relative;
+    right: 80px;
+    color: white;
+}
+
+#n5 {
+    text-shadow: 2px 2px 4px blue, -2px -2px 6px blue;
+    font-size: 30px;
+    color: white;
+}
+
+#lit {
+    opacity: 0.7;
+    box-shadow: 2px 2px 4px rgb(4, 4, 19), -2px -2px 6px rgb(2, 2, 29);
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: rgb(3, 41, 41);
+    position: relative;
+    top: 40px;
+}
+
+ul>li {
+    color: azure;
+    padding: 5px;
+    text-decoration: none;
+    padding: 10px;
+    float: left;
+}
+
+ul {
+    margin-left: 700px;
+    list-style: none;
+    display: inline-block;
+}
+
+h3 {
+    position: relative;
+    left: 70px;
+    top: -180px;
+    font-style: oblique;
+    font-size: 50px;
+    color: rgb(187, 195, 226);
+    text-shadow: 1px 1px 3px rgb(165, 123, 6), -2px -2px 3px rgb(7, 7, 218);
+}
+
+h4 {
+    position: relative;
+    left: 110px;
+    top: -180px;
+    font-style: oblique;
+    font-size: 20px;
+    color: rgb(20, 245, 226);
+    text-shadow: 1px 1px 2px rgb(165, 123, 6), -1px -1px 2px rgb(7, 7, 218);
+}
+
+#mid {
+    position: relative;
+    left: 70px;
+    top: -180px;
+    font-style: oblique;
+    font-size: 20px;
+    color: rgb(199, 154, 5);
+    text-shadow: 1px 1px 3px rgb(165, 123, 6), -1px -1px 3px rgb(7, 7, 218);
+}
+
+#container {
+    min-height: 100%;
+    margin: 0;
+}
+
+#main {
+    overflow: auto;
+    padding-bottom: 100px;
+}
+
+#n2 {
+    margin-right: 0px;
+    margin-left: -10px;
+    height: 40px;
+    margin-top: 0px;
+    background-color: rgb(224, 156, 66);
+}
+
+#h3 {
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 190px;
+    font-style: oblique;
+    font-size: 20px;
+    color: rgb(10, 10, 177);
+    text-shadow: 2px 1px 4px blue, -1px -1px 2px black;
+}
+
+#h2 {
+    margin-left: 30px;
+    margin-top: 120px;
+    position: absolute;
+    font-style: inherit;
+    font-size: 60px;
+    color: white;
+    text-shadow: 2px 2px 6px blue, -2px -2px 6px blue;
+}
+
+#footer {
+    background-color: rgb(224, 156, 66);
+    height: 100px;
+    margin-top: auto;
+    padding: 10px;
+}
+
+#plate2 {
+    background-color: rgb(199, 224, 223);
+    box-shadow: 2px 2px 3px rgb(97, 72, 3), -2px -2px 3px rgb(136, 116, 3);
+    border-radius: 30px;
+    width: 750px;
+    height: 380px;
+    opacity: 0.3px;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+
+.sos2 {
+    position: absolute;
+    left: 0px;
+    margin-top: 20px;
+}
+
+.lu2 {
+    right: 330px;
+    position: relative;
+    bottom: -19px;
+    list-style: none;
+    display: flex;
+}
+
+.lu2>a>li>img {
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px #010e09, -1px -1px 2px rgb(10, 10, 14);
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    padding: 0.1px;
+}
+
+.lu2 a li img:hover {
+    width: 25px;
+    height: 25px;
+}
+
+#cpag2 {
+    position: relative;
+    left: -23px;
+    font-style: oblique;
+    font-size: 30px;
+    bottom: 5px;
+    margin-left: 350px;
+    color: rgb(9, 47, 172);
+    text-shadow: 2px 2px 6px rgb(153, 48, 7), -1px -1px 2px rgb(3, 22, 65);
+}
+
+#pag2 {
+    position: absolute;
+    left: 50px;
+    margin-top: 89px;
+    font-style: oblique;
+    font-size: 16px;
+    margin-left: 350px;
+    color: rgb(9, 47, 172);
+    text-shadow: 2px 2px 6px rgb(153, 48, 7), -1px -1px 2px rgb(3, 22, 65);
+}
+
+#h1 {
+    margin-left: 30px;
+    margin-top: 20px;
+    position: absolute;
+    font-style: inherit;
+    font-size: 30px;
+    color: white;
+    text-shadow: 2px 2px 4px blue, -2px -2px 6px blue;
+}
+
+#use2 {
+    box-shadow: 2px 2px 2px rgb(11, 11, 238), -2px -2px 2px rgb(14, 14, 238);
+    border: solid 2px;
+    width: 200px;
+    height: 200px;
+    opacity: 0.8;
+    border-radius: 30px;
+    position: absolute;
+    top: 120px;
+    left: 580px;
+}
+
+#ft1 {
+    position: absolute;
+    margin-left: 70px;
+    margin-top: 90px;
+    font-style: oblique;
+    font-size: 20px;
+    color: white;
+    text-shadow: 2px 2px 4px rgb(3, 3, 71), -2px -2px 6px blue;
+}
+
+#net1 {
+    position: relative;
+}
+
+.gr2 {
+    position: relative;
+    top: 30px;
+    left: 43px;
+    flex-wrap: wrap;
+    display: flex;
+    align-content: center;
+}
+
+.gr2>img {
+    box-shadow: 2px 2px 4px rgb(1, 1, 20), -2px -2px 4px rgb(2, 2, 31);
+    border: solid 2px;
+    width: 100px;
+    height: 100px;
+    opacity: 0.7;
+    border-radius: 30px;
+    padding: 10px;
+    margin: 20px;
+    background-color: rgb(2, 67, 110);
+}
+
+.gr2 img:hover {
+    background-color: rgb(223, 71, 11);
+}
+
+#ho2 {
+    position: relative;
+    left: 340px;
+    top: 27px;
+    opacity: 0.9;
+    font-style: oblique;
+    font-size: xx-large;
+    color: rgb(20, 245, 226);
+    text-shadow: 2px 2px 6px rgb(2, 2, 19), -2px -2px 6px blue;
+}
+
+.rot1 {
+    text-decoration: none;
+    position: relative;
+    top: 300px;
+    left: 30px;
+    box-shadow: 1px 1px 2px rgb(35, 35, 170), -1px -1px 2px rgb(2, 2, 31);
+    border: solid 1px;
+    width: 70px;
+    height: 70px;
+    opacity: 0.8;
+    border-radius: 20px;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin: 10px;
+    color: white;
+    background-color: rgb(224, 156, 66);
+}
+
+.rot1:hover {
+    background-color: blue;
+}
+
+.im2 {
+    position: relative;
+    top: -20px;
+    left: 40px;
+    flex-wrap: wrap;
+    display: flex;
+    align-content: center;
+}
+
+.im2>a>img {
+    box-shadow: 2px 2px 4px rgb(3, 3, 44), -2px -2px 4px rgb(2, 2, 31);
+    border: solid 2px;
+    width: 220px;
+    height: 220px;
+    opacity: 0.7;
+    border-radius: 30px;
+    padding: 10px;
+    margin: 15px;
+    background-color: rgb(2, 67, 110);
+}
+
+.im2 img:hover {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(223, 71, 11);
+}
+
+#proj {
+    position: relative;
+    left: 350px;
+    top: -40px;
+    font-style: oblique;
+    font-size: xx-large;
+    color: rgb(245, 242, 236);
+    text-shadow: 1px 1px 3px blue, -1px -1px 6px blue;
+}
+
+.dow {
+    position: relative;
+    left: 0px;
+    bottom: 0px;
+}
+
+.lu {
+    right: 250px;
+    position: relative;
+    bottom: -35px;
+    list-style: none;
+    display: flex;
+}
+
+.lu>a>li>img {
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px rgb(1, 14, 9), -2px -2px 4px rgb(10, 10, 14);
+    margin: 1px;
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+}
+
+.lu li img:hover {
+    height: 23px;
+    width: 23px;
+}
+
+#contra {
+    flex-wrap: wrap;
+    align-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.flx:hover {
+    color: rgb(5, 72, 160);
+    width: 110px;
+    height: 8px;
+    background-color: rgb(112, 59, 7);
+}
+
+#dc {
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 6px rgb(241, 240, 235), -2px -2px 6px blue;
+}
+
+.ha {
+    color: white;
+    text-shadow: 2px 2px 6px rgb(165, 165, 201), -2px -2px 6px blue;
+}
+
+.flx {
+    box-shadow: 2px 2px 4px rgb(59, 201, 146), -2px -2px 4px rgb(5, 5, 39);
+    border-radius: 10px;
+    margin: 50px;
+    align-content: center;
+    border: solid 2px;
+    width: 90px;
+    height: 3px;
+    padding: 30px;
+    background-color: green;
+}
+
+.blk {
+    margin: auto;
+    box-shadow: 2px 2px 4px rgb(59, 201, 146), -2px -2px 4px rgb(5, 5, 39);
+    border-radius: 10px;
+    width: 400px;
+    height: 400px;
+    background-color: orange;
+}
+
+.rect {
+    margin: auto;
+    box-shadow: 2px 2px 4px rgb(59, 201, 146), -2px -2px 4px rgb(5, 5, 39);
+    border-radius: 10px;
+    width: 250px;
+    height: 400px;
+    background-color: white;
+}
+
+#bk2 {
+    box-shadow: 2px 2px 4px rgb(59, 201, 146), -2px -2px 4px rgb(5, 5, 39);
+    border-radius: 10px;
+    margin: 50px;
+    align-content: center;
+    border: solid 2px;
+    width: 90px;
+    height: 3px;
+    padding: 30px;
+    background-color: green;
+}
+
+#u3 {
+    position: relative;
+    left: -80px;
+}
