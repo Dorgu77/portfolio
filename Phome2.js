@@ -35,7 +35,7 @@ return(
     </nav>
 
 
-<div id="plate2">
+<div id="plate2" >
     <h2 id="h1" >..portfolio</h2>
     <div id="ft1">Hello, Am </div>
     <h1 id="h2">DEIMO DORGU</h1>
