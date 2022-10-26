@@ -1,0 +1,11 @@
+
+    
+<Router>
+
+<Routes>
+ <Route exact path='/' element={<Phome2 />} />
+ <Route path='/Hire' element={<Hire />} />
+ 
+</Routes>
+
+</Router>
