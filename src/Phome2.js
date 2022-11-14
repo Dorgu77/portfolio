@@ -27,13 +27,15 @@ return(
 <div>
 <nav>
 <div id="firstcode">
-<a  href="#ab">About</a>
-<a  href="#hir">Hire me</a>
+<span className="up"><a  href="#ab">About</a></span>
+<span className="up"><a  href="#hir">Hire me</a></span>
+<span className="up"><a href="myResume.pdf" download="Cv">download cv</a></span>
 </div>
 </nav>
 
     
         
+            
     
 
        
@@ -76,20 +78,20 @@ Front end developer
 <div id="inputs">
 <a  id="hir"><span id="soap">Contact form</span></a>
                 <form action="https://www.formsubmit.co/deimodorgutech@gmail.com" method="post">
-            <input placeholder="company name"  size="45" className="py" name="company" required type="text"onChange={gas}   value={ind.company} /><br/><br/>
-            <input  placeholder="role" size="45" type="text"  className="py" name="role"  required onChange={gas}  value={ind.role} /><br/><br/>
-            <input type="text" placeholder="country"  size="45" name="country" className="py"required onChange={gas} value={ind.country}  /><br/><br/>
+            <input placeholder="company name"  style={{color:"orange", fontSize:"20px"}} size="34" className="py" name="company" required type="text"onChange={gas}   value={ind.company} /><br/><br/>
+            <input  placeholder="role"  style={{color:"orange", fontSize:"20px"}} size="34" type="text"  className="py" name="role"  required onChange={gas}  value={ind.role} /><br/><br/>
+            <input type="text" placeholder="country" style={{color:"orange", fontSize:"20px"}} size="34" name="country" className="py"required onChange={gas} value={ind.country}  /><br/><br/>
 
-            <input placeholder="stacks needed" size="45" name="stacks" className="py" required type="text"onChange={gas}   value={ind.stacks} /><br/>
+            <input placeholder="stacks needed" style={{color:"orange", fontSize:"20px"}} size="34" name="stacks" className="py" required type="text"onChange={gas}   value={ind.stacks} /><br/>
 <br/>
-            <select  className="py" name="type" onChange={gas} valu={ind.type}>
+            <select   className="boss" style={{color:"orange", padding:"5px"}}  className="py" name="type" onChange={gas} valu={ind.type}>
                 <option>select job type</option>
                 <option>fully onsite</option>
                 <option>fully remote</option>
             </select>
 <br/>
 <br></br>
-        <button type="submit"  className="py">submit</button>
+        <button type="submit"  style={{color:"orange", padding:"6px"}}  className="py">submit</button>
             </form></div>
          <br/>   
 <div className="exper">
@@ -110,7 +112,7 @@ Front end developer
 <a id="tah"><div id="projhead">..portfolio projects</div></a>
 <div className="projectbox">
 
-<a  target="blank" href="/Atm"><div><span id="project1">project1</span><img  src="laaap.png"/></div></a>
+<a  target="blank" href=""><div><span id="project1">project1</span><img  src="laaap.png"/></div></a>
 <a  target="blank" href="#"><div><span id="project2">project2</span><img  src="usepic.png"/></div></a>
 <a  target="blank" href="#"><div><span id="project3">project3</span><img  src="paath.png"/></div></a>
 <a  target="blank" href="#"><div><span id="project4">project4</span><img  src="coder.png"/></div></a>
