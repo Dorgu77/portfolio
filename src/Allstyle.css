@@ -1,753 +1,731 @@
-* {
-    box-sizing: border-box;
-}
-
-html,
-body {
-    background-color: rgb(99, 31, 3);
-    margin: 0;
-    padding: 0;
-}
-
-.plate2 {
-    position: relative;
-    margin: auto;
-    top: 30px;
-    box-shadow: 2px 2px 3px rgb(204, 197, 177), -2px -2px 3px rgb(179, 138, 3);
-    background-color: rgb(6, 6, 71);
-    border-radius: 10px;
-    width: 400px;
-    height: 170px;
-    opacity: 0.3px;
-}
-
-#hello {
-    opacity: 0.95;
-    font-style: oblique;
-    font-size: 20px;
-    margin-top: -23px;
-    margin-left: 10px;
-    margin-bottom: 20px;
-    color: white;
-    text-shadow: 2px 2px 4px rgb(3, 3, 71), -2px -2px 6px blue;
-}
-
-#myname {
-    opacity: 0.95;
-    margin-top: 0px;
-    margin-left: 25px;
-    font-style: inherit;
-    font-size: 32px;
-    color: white;
-    text-shadow: 2px 2px 6px blue, -2px -2px 6px blue;
-}
-
-#mydescription {
-    margin-left: 10px;
-    margin-top: -27px;
-    margin-bottom: 10px;
-    font-style: oblique;
-    font-size: 20px;
-    color: rgb(122, 122, 185);
-    text-shadow: 2px 1px 4px rgb(24, 143, 121)-1px -1px 2px rgb(136, 13, 13);
-}
-
-.rot2 {
-    margin-top: 5px;
-    margin-left: 10px;
-}
-
-.rot1:hover {
-    background-color: rgb(103, 8, 27);
-}
-
-.rot1 {
-    margin: 4px;
-    text-decoration: none;
-    box-shadow: 1px 1px 2px rgb(35, 35, 170), -1px -1px 2px rgb(2, 2, 31);
-    border: solid 1px;
-    width: 21px;
-    height: 21px;
-    opacity: 0.8;
-    border-radius: 5px;
-    padding: 3px;
-    color: white;
-    background-color: rgb(224, 156, 66);
-}
-
-#portfollio {
-    opacity: 0.95;
-    margin-top: 9px;
-    margin-left: 12px;
-    font-style: inherit;
-    font-size: 25px;
-    color: white;
-    text-shadow: 2px 2px 4px blue, -2px -2px 6px blue;
-}
-
-#mypic {
-    position: absolute;
-    right: 17px;
-    top: 23px;
-}
-
-#mypic>img {
-    box-shadow: 1px 1px 1px rgb(11, 11, 238), -1px -1px 1px rgb(14, 14, 238);
-    border: solid 2px;
-    width: 110px;
-    height: 110px;
-    opacity: 0.8;
-    border-radius: 10px;
-}
-
-#firstcode {
-    margin-left: 20px;
-    display: inline-block;
-}
-
-#firstcode a {
-    opacity: 0.9;
-    font-size: 14px;
-    margin: 5px;
-    color: rgb(220, 226, 235);
-}
-
-#firstcode a:hover {
-    color: rgba(207, 54, 8, 0.85);
-}
-
-#skills {
-    margin-top: 30px;
-    text-align: center;
-    opacity: 0.8;
-    font-style: oblique;
-    font-size: 25px;
-    color: rgb(20, 245, 226);
-    text-shadow: 2px 2px 6px rgb(2, 2, 19), -2px -2px 6px blue;
-}
-
-.skillbox {
-    box-shadow: 0 14px 15px rgb(0, 0, 11), 0 10px 5px rgb(2, 2, 8);
-    background-color: rgb(85, 28, 5);
-    margin: auto;
-    width: 390px;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.skillbox>div>img {
-    box-shadow: 0 14px 15px rgb(0, 0, 11), 0 10px 5px rgb(2, 2, 8);
-    border: solid 2px;
-    width: 154px;
-    height: 150px;
-    opacity: 0.7;
-    border-radius: 10px;
-    padding: 10px;
-    margin: 20px;
-    background-color: rgb(2, 67, 110);
-}
-
-.skillbox img:hover {
-    background-color: rgb(223, 71, 11);
-}
-
-#html {
-    left: 110px;
-    position: absolute;
-    opacity: 0.8;
-    font-style: oblique;
-    font-size: 15px;
-    color: rgb(245, 242, 236);
-    text-shadow: 1px 1px 3px blue, -1px -1px 6px blue;
-}
-
-#css {
-    right: 120px;
-    position: absolute;
-    opacity: 0.8;
-    font-style: oblique;
-    font-size: 15px;
-    color: rgb(245, 242, 236);
-    text-shadow: 1px 1px 3px blue, -1px -1px 6px blue;
-}
-
-#javascript {
-    left: 100px;
-    position: absolute;
-    opacity: 0.8;
-    font-style: oblique;
-    font-size: 15px;
-    color: rgb(245, 242, 236);
-    text-shadow: 1px 1px 3px blue, -1px -1px 6px blue;
-}
-
-#react {
-    right: 120px;
-    position: absolute;
-    opacity: 0.8;
-    font-style: oblique;
-    font-size: 15px;
-    color: rgb(245, 242, 236);
-    text-shadow: 1px 1px 3px blue, -1px -1px 6px blue;
-}
-
-#node {
-    left: 110px;
-    position: absolute;
-    opacity: 0.8;
-    font-style: oblique;
-    font-size: 15px;
-    color: rgb(245, 242, 236);
-    text-shadow: 1px 1px 3px blue, -1px -1px 6px blue;
-}
-
-#express {
-    right: 100px;
-    position: absolute;
-    opacity: 0.8;
-    font-style: oblique;
-    font-size: 15px;
-    color: rgb(245, 242, 236);
-    text-shadow: 1px 1px 3px blue, -1px -1px 6px blue;
-}
-
-.footer {
-    background-color: rgb(53, 17, 3);
-    margin-top: 30px;
-}
-
-#deimo {
-    text-align: center;
-    opacity: 0.8;
-    font-style: oblique;
-    font-size: 15px;
-    color: rgb(210, 195, 165);
-    text-shadow: 1px 1px 3px blue, -1px -1px 6px blue;
-}
-
-#copywrite {
-    text-align: center;
-    opacity: 0.8;
-    font-style: oblique;
-    font-size: 13px;
-    color: rgb(220, 207, 181);
-    text-shadow: 1px 1px 3px blue, -1px -1px 6px blue;
-}
-
-.social {
-    bottom: 0px;
-    text-align: center;
-}
-
-.social a img {
-    background-color: white;
-    width: 18px;
-    height: 18px;
-    border-radius: 5px;
-    margin: 3px;
-    opacity: 0.75;
-}
-
-.social a img:hover {
-    opacity: 0.6;
-    background-color: orange;
-}
-
-.projectbox {
-    box-shadow: 0 14px 15px rgb(0, 0, 11), 0 10px 5px rgb(2, 2, 8);
-    background-color: rgb(85, 28, 5);
-    margin: auto;
-    width: 400px;
-    margin: auto;
-    flex-wrap: wrap;
-    display: flex;
-    align-content: center;
-}
-
-.projectbox>a>div>img {
-    box-shadow: 0 14px 15px rgb(0, 0, 11), 0 10px 5px rgb(2, 2, 8);
-    border: solid 2px;
-    width: 159px;
-    height: 159px;
-    opacity: 0.7;
-    border-radius: 10px;
-    padding: 3px;
-    margin: 20px;
-    background-color: rgb(2, 67, 110);
-}
-
-.projectbox img:hover {
-    width: 190px;
-    height: 190px;
-    background-color: rgb(223, 71, 11);
-}
-
-#projhead {
-    margin: 7px;
-    opacity: 0.8;
-    text-align: center;
-    font-style: oblique;
-    font-size: x-large;
-    color: rgb(48, 241, 228);
-    text-shadow: 1px 1px 3px blue, -1px -1px 6px blue;
-}
-
-#project1 {
-    left: 100px;
-    position: absolute;
-    opacity: 0.8;
-    font-style: oblique;
-    font-size: 15px;
-    color: rgb(245, 242, 236);
-    text-shadow: 1px 1px 3px blue, -1px -1px 6px blue;
-}
-
-#project2 {
-    right: 110px;
-    position: absolute;
-    opacity: 0.8;
-    font-style: oblique;
-    font-size: 15px;
-    color: rgb(245, 242, 236);
-    text-shadow: 1px 1px 3px blue, -1px -1px 6px blue;
-}
-
-#project3 {
-    left: 100px;
-    position: absolute;
-    opacity: 0.8;
-    font-style: oblique;
-    font-size: 15px;
-    color: rgb(245, 242, 236);
-    text-shadow: 1px 1px 3px blue, -1px -1px 6px blue;
-}
-
-#project4 {
-    right: 120px;
-    position: absolute;
-    opacity: 0.8;
-    font-style: oblique;
-    font-size: 15px;
-    color: rgb(245, 242, 236);
-    text-shadow: 1px 1px 3px blue, -1px -1px 6px blue;
-}
-
-#project5 {
-    left: 100px;
-    position: absolute;
-    opacity: 0.8;
-    font-style: oblique;
-    font-size: 15px;
-    color: rgb(245, 242, 236);
-    text-shadow: 1px 1px 3px blue, -1px -1px 6px blue;
-}
-
-#project6 {
-    right: 110px;
-    position: absolute;
-    opacity: 0.8;
-    font-style: oblique;
-    font-size: 15px;
-    color: rgb(245, 242, 236);
-    text-shadow: 1px 1px 3px blue, -1px -1px 6px blue;
-}
-
-#contact1 {
-    box-shadow: 0 14px 15px rgb(0, 0, 11), 0 10px 5px rgb(2, 2, 8);
-    opacity: 0.7;
-    margin: auto;
-    background-color: rgb(6, 6, 71);
-    height: 520px;
-    width: 450px;
-}
-
-#inputs {
-    text-align: center;
-    color: white;
-    font-size: 18px;
-}
-
-.exper {
-    text-align: center;
-    opacity: 0.8;
-    font-style: oblique;
-    font-size: 15px;
-    color: rgb(245, 242, 236);
-    text-shadow: 1px 1px 3px blue, -1px -1px 6px blue;
-    font-size: 18px;
-}
-
-h3 {
-    margin: 2px;
-    opacity: 0.9;
-    font-style: oblique;
-    font-size: 25px;
-    color: rgb(20, 245, 226);
-    text-shadow: 2px 2px 6px rgb(2, 2, 19), -2px -2px 6px blue;
-}
-
-@media only screen and (min-width:767px) {
-    nav {
-        background-color: rgb(222, 202, 193);
-    }
-    .plate2 {
-        position: relative;
-        margin: auto;
-        top: 30px;
-        box-shadow: 2px 2px 3px rgb(204, 197, 177), -2px -2px 3px rgb(179, 138, 3);
-        border-radius: 10px;
-        width: 500px;
-        background-color: rgb(6, 6, 71);
-        height: 200px;
-        opacity: 0.3px;
-    }
-    #hello {
-        opacity: 0.95;
-        font-style: oblique;
-        font-size: 24px;
-        margin-top: -23px;
-        margin-left: 10px;
-        margin-bottom: 20px;
-        color: white;
-        text-shadow: 2px 2px 4px rgb(3, 3, 71), -2px -2px 6px blue;
-    }
-    #myname {
-        opacity: 0.95;
-        margin-top: 0px;
-        margin-left: 25px;
-        font-style: inherit;
-        font-size: 43px;
-        color: white;
-        text-shadow: 2px 2px 6px blue, -2px -2px 6px blue;
-    }
-    #mydescription {
-        margin-left: 10px;
-        margin-top: -27px;
-        margin-bottom: 10px;
-        font-style: oblique;
-        font-size: 23px;
-        color: rgb(122, 122, 185);
-        text-shadow: 2px 1px 4px rgb(24, 143, 121)-1px -1px 2px rgb(136, 13, 13);
-    }
-    .rot2 {
-        margin-top: 5px;
-        margin-left: 10px;
-    }
-    .rot1:hover {
-        background-color: rgb(103, 8, 27);
-    }
-    .rot1 {
-        margin: 4px;
-        text-decoration: none;
-        box-shadow: 1px 1px 2px rgb(35, 35, 170), -1px -1px 2px rgb(2, 2, 31);
-        border: solid 1px;
-        width: 28px;
-        height: 28px;
-        opacity: 0.8;
-        border-radius: 5px;
-        padding: 3px;
-        color: white;
-        background-color: rgb(224, 156, 66);
-    }
-    #portfollio {
-        opacity: 0.9;
-        margin-top: 9px;
-        margin-left: 12px;
-        font-style: inherit;
-        font-size: 28px;
-        color: rgb(255, 255, 255);
-        text-shadow: 2px 2px 4px blue, -2px -2px 6px blue;
-    }
-    #mypic {
-        position: absolute;
-        right: 17px;
-        top: 20px;
-    }
-    #mypic>img {
-        box-shadow: 1px 1px 1px rgb(11, 11, 238), -1px -1px 1px rgb(14, 14, 238);
-        border: solid 2px;
-        width: 130px;
-        height: 130px;
-        opacity: 0.8;
-        border-radius: 10px;
-    }
-    #firstcode {
-        margin: 10px;
-        margin-right: 20px;
-        display: inline-block;
-    }
-    #firstcode a {
-        opacity: 0.9;
-        font-size: 18px;
-        margin: 10px;
-        color: rgb(3, 34, 78);
-    }
-    #firstcode a:hover {
-        color: rgba(207, 54, 8, 0.85);
-    }
-    #skills {
-        margin-top: 39px;
-        text-align: center;
-        opacity: 0.9;
-        font-style: oblique;
-        font-size: 25px;
-        color: rgb(20, 245, 226);
-        text-shadow: 2px 2px 6px rgb(2, 2, 19), -2px -2px 6px blue;
-    }
-    .skillbox {
-        box-shadow: 0 14px 15px rgb(0, 0, 11), 0 10px 5px rgb(2, 2, 8);
-        background-color: rgb(85, 28, 5);
-        margin: auto;
-        width: 600px;
-        display: flex;
-        flex-wrap: wrap;
-    }
-    .skillbox>div>img {
-        box-shadow: 0 14px 15px rgb(0, 0, 11), 0 10px 5px rgb(2, 2, 8);
-        border: solid 2px;
-        width: 120px;
-        height: 120px;
-        opacity: 0.7;
-        border-radius: 10px;
-        padding: 10px;
-        margin: 40px;
-        background-color: rgb(2, 67, 110);
-    }
-    .skillbox img:hover {
-        background-color: rgb(225, 216, 209);
-    }
-    #html {
-        left: 170px;
-        position: absolute;
-        opacity: 0.8;
-        font-style: oblique;
-        font-size: 15px;
-        color: rgb(245, 242, 236);
-        text-shadow: 1px 1px 3px blue, -1px -1px 6px blue;
-    }
-    #css {
-        left: 378px;
-        position: absolute;
-        opacity: 0.8;
-        font-style: oblique;
-        font-size: 15px;
-        color: rgb(245, 242, 236);
-        text-shadow: 1px 1px 3px blue, -1px -1px 6px blue;
-    }
-    #javascript {
-        left: 550px;
-        position: absolute;
-        opacity: 0.8;
-        font-style: oblique;
-        font-size: 15px;
-        color: rgb(245, 242, 236);
-        text-shadow: 1px 1px 3px blue, -1px -1px 6px blue;
-    }
-    #react {
-        left: 160px;
-        position: absolute;
-        opacity: 0.8;
-        font-style: oblique;
-        font-size: 15px;
-        color: rgb(245, 242, 236);
-        text-shadow: 1px 1px 3px blue, -1px -1px 6px blue;
-    }
-    #node {
-        left: 370px;
-        position: absolute;
-        opacity: 0.8;
-        font-style: oblique;
-        font-size: 15px;
-        color: rgb(245, 242, 236);
-        text-shadow: 1px 1px 3px blue, -1px -1px 6px blue;
-    }
-    #express {
-        right: 160px;
-        position: absolute;
-        opacity: 0.8;
-        font-style: oblique;
-        font-size: 15px;
-        color: rgb(245, 242, 236);
-        text-shadow: 1px 1px 3px blue, -1px -1px 6px blue;
-    }
-    .footer {
-        margin-top: 30px;
-        background-color: rgb(53, 17, 3);
-    }
-    #deimo {
-        text-align: center;
-        opacity: 0.8;
-        font-style: oblique;
-        font-size: 15px;
-        color: rgb(210, 195, 165);
-        text-shadow: 1px 1px 3px blue, -1px -1px 6px blue;
-    }
-    #copywrite {
-        text-align: center;
-        opacity: 0.8;
-        font-style: oblique;
-        font-size: 13px;
-        color: rgb(220, 207, 181);
-        text-shadow: 1px 1px 3px blue, -1px -1px 6px blue;
-    }
-    .social {
-        bottom: 0px;
-        text-align: center;
-    }
-    .social a img {
-        background-color: white;
-        width: 18px;
-        height: 18px;
-        border-radius: 5px;
-        margin: 3px;
-        opacity: 0.75;
-    }
-    .social a img:hover {
-        opacity: 0.6;
-        background-color: orange;
-    }
-    .projectbox {
-        box-shadow: 0 14px 15px rgb(0, 0, 11), 0 10px 5px rgb(2, 2, 8);
-        background-color: rgb(85, 28, 5);
-        margin: auto;
-        width: 600px;
-        flex-wrap: wrap;
-        display: flex;
-        align-content: center;
-    }
-    .projectbox>a>div>img {
-        box-shadow: 0 14px 15px rgb(0, 0, 11), 0 10px 5px rgb(2, 2, 8);
-        border: solid 2px;
-        width: 150px;
-        height: 150px;
-        opacity: 0.7;
-        border-radius: 10px;
-        padding: 3px;
-        margin: 23px;
-        background-color: rgb(2, 67, 110);
-    }
-    .projectbox img:hover {
-        width: 210px;
-        height: 210px;
-        background-color: rgb(223, 71, 11);
-    }
-    #projhead {
-        margin: 7px;
-        opacity: 0.8;
-        text-align: center;
-        font-style: oblique;
-        font-size: x-large;
-        color: rgb(48, 241, 228);
-        text-shadow: 1px 1px 3px blue, -1px -1px 6px blue;
-    }
-    #project1 {
-        left: 150px;
-        position: absolute;
-        opacity: 0.8;
-        font-style: oblique;
-        font-size: 15px;
-        color: rgb(245, 242, 236);
-        text-shadow: 1px 1px 3px blue, -1px -1px 6px blue;
-    }
-    #project2 {
-        left: 350px;
-        position: absolute;
-        opacity: 0.8;
-        font-style: oblique;
-        font-size: 15px;
-        color: rgb(245, 242, 236);
-        text-shadow: 1px 1px 3px blue, -1px -1px 6px blue;
-    }
-    #project3 {
-        left: 550px;
-        position: absolute;
-        opacity: 0.8;
-        font-style: oblique;
-        font-size: 15px;
-        color: rgb(245, 242, 236);
-        text-shadow: 1px 1px 3px blue, -1px -1px 6px blue;
-    }
-    #project4 {
-        left: 150px;
-        position: absolute;
-        opacity: 0.8;
-        font-style: oblique;
-        font-size: 15px;
-        color: rgb(245, 242, 236);
-        text-shadow: 1px 1px 3px blue, -1px -1px 6px blue;
-    }
-    #project5 {
-        left: 350px;
-        position: absolute;
-        opacity: 0.8;
-        font-style: oblique;
-        font-size: 15px;
-        color: rgb(245, 242, 236);
-        text-shadow: 1px 1px 3px blue, -1px -1px 6px blue;
-    }
-    #project6 {
-        right: 160px;
-        position: absolute;
-        opacity: 0.8;
-        font-style: oblique;
-        font-size: 15px;
-        color: rgb(245, 242, 236);
-        text-shadow: 1px 1px 3px blue, -1px -1px 6px blue;
-    }
-    #contact1 {
-        margin-top: 10px;
-        box-shadow: 0 14px 15px rgb(0, 0, 11), 0 10px 5px rgb(2, 2, 8);
-        opacity: 0.7;
-        margin: auto;
-        background-color: rgb(6, 6, 71);
-        height: 520px;
-        width: 500px;
-    }
-    #inputs {
-        text-align: center;
-        color: white;
-        font-size: 18px;
-    }
-    .exper {
-        text-align: center;
-        opacity: 0.8;
-        font-style: oblique;
-        font-size: 15px;
-        color: rgb(245, 242, 236);
-        text-shadow: 1px 1px 3px blue, -1px -1px 6px blue;
-        font-size: 18px;
-    }
-    h3 {
-        margin: 2px;
-        opacity: 0.9;
-        font-style: oblique;
-        font-size: 25px;
-        color: rgb(20, 245, 226);
-        text-shadow: 2px 2px 6px rgb(2, 2, 19), -2px -2px 6px blue;
-    }
-}
-
-#inputs {
-    text-align: center;
-    color: white;
-    font-size: 18px;
-}
-
-.exper {
-    text-align: center;
-    opacity: 0.8;
-    font-style: oblique;
-    font-size: 15px;
-    color: rgb(245, 242, 236);
-    text-shadow: 1px 1px 3px blue, -1px -1px 6px blue;
-    font-size: 18px;
-}
-
-h3 {
-    margin: 2px;
-    opacity: 0.9;
-    font-style: oblique;
-    font-size: 25px;
-    color: rgb(20, 245, 226);
-    text-shadow: 2px 2px 6px rgb(2, 2, 19), -2px -2px 6px blue;
-}
+                * {
+                    box-sizing: border-box;
+                }
+                
+                html,
+                body {
+                    background-color: rgb(75, 25, 3);
+                    margin: 0;
+                    padding: 0;
+                }
+                
+                .up {
+                    border: solid green 1px;
+                }
+                
+                .plate2 {
+                    position: relative;
+                    margin: auto;
+                    top: 30px;
+                    box-shadow: 2px 2px 3px rgb(204, 197, 177), -2px -2px 3px rgb(179, 138, 3);
+                    background-color: rgb(6, 6, 71);
+                    border-radius: 10px;
+                    width: 430px;
+                    height: 170px;
+                    opacity: 0.3px;
+                }
+                
+                #hello {
+                    opacity: 0.95;
+                    font-style: oblique;
+                    font-size: 20px;
+                    margin-top: -23px;
+                    margin-left: 10px;
+                    margin-bottom: 20px;
+                    color: white;
+                    text-shadow: 2px 2px 4px rgb(3, 3, 71), -2px -2px 6px blue;
+                }
+                
+                #myname {
+                    opacity: 0.95;
+                    margin-top: 0px;
+                    margin-left: 25px;
+                    font-style: inherit;
+                    font-size: 32px;
+                    color: white;
+                    text-shadow: 2px 2px 6px blue, -2px -2px 6px blue;
+                }
+                
+                #mydescription {
+                    margin-left: 10px;
+                    margin-top: -27px;
+                    margin-bottom: 10px;
+                    font-style: oblique;
+                    font-size: 20px;
+                    color: rgb(122, 122, 185);
+                    text-shadow: 2px 1px 4px rgb(24, 143, 121)-1px -1px 2px rgb(136, 13, 13);
+                }
+                
+                .rot2 {
+                    margin-top: 5px;
+                    margin-left: 10px;
+                }
+                
+                .rot1:hover {
+                    background-color: rgb(103, 8, 27);
+                }
+                
+                .rot1 {
+                    margin: 4px;
+                    text-decoration: none;
+                    box-shadow: 1px 1px 2px rgb(35, 35, 170), -1px -1px 2px rgb(2, 2, 31);
+                    border: solid 1px;
+                    width: 21px;
+                    height: 21px;
+                    opacity: 0.8;
+                    border-radius: 5px;
+                    padding: 3px;
+                    color: white;
+                    background-color: rgb(224, 156, 66);
+                }
+                
+                #portfollio {
+                    opacity: 0.95;
+                    margin-top: 9px;
+                    margin-left: 12px;
+                    font-style: inherit;
+                    font-size: 25px;
+                    color: white;
+                    text-shadow: 2px 2px 4px blue, -2px -2px 6px blue;
+                }
+                
+                #mypic {
+                    position: absolute;
+                    right: 17px;
+                    top: 23px;
+                }
+                
+                #mypic>img {
+                    box-shadow: 1px 1px 1px rgb(11, 11, 238), -1px -1px 1px rgb(14, 14, 238);
+                    border: solid 2px;
+                    width: 130px;
+                    height: 130px;
+                    opacity: 0.8;
+                    border-radius: 10px;
+                }
+                
+                #firstcode {
+                    margin-left: 20px;
+                    display: inline-block;
+                }
+                
+                #firstcode a {
+                    opacity: 0.9;
+                    font-size: 14px;
+                    margin: 5px;
+                    color: rgb(220, 226, 235);
+                }
+                
+                #firstcode a:hover {
+                    color: rgba(207, 54, 8, 0.85);
+                }
+                
+                #skills {
+                    margin-top: 34px;
+                    text-align: center;
+                    opacity: 0.8;
+                    font-style: oblique;
+                    font-size: 25px;
+                    color: rgb(20, 245, 226);
+                    text-shadow: 2px 2px 6px rgb(2, 2, 19), -2px -2px 6px blue;
+                }
+                
+                .skillbox {
+                    box-shadow: 0 14px 15px rgb(0, 0, 11), 0 10px 5px rgb(2, 2, 8);
+                    background-color: rgb(85, 28, 5);
+                    margin: auto;
+                    width: 440px;
+                    display: flex;
+                    flex-wrap: wrap;
+                }
+                
+                .skillbox>div>img {
+                    box-shadow: 0 14px 15px rgb(0, 0, 11), 0 10px 5px rgb(2, 2, 8);
+                    border: solid 2px;
+                    width: 174px;
+                    height: 170px;
+                    opacity: 0.7;
+                    border-radius: 10px;
+                    padding: 10px;
+                    margin: 23px;
+                    background-color: rgb(2, 67, 110);
+                }
+                
+                .skillbox img:hover {
+                    background-color: rgb(223, 71, 11);
+                }
+                
+                #html {
+                    left: 110px;
+                    position: absolute;
+                    opacity: 0.8;
+                    font-style: oblique;
+                    font-size: 15px;
+                    color: rgb(245, 242, 236);
+                    text-shadow: 1px 1px 3px blue, -1px -1px 6px blue;
+                }
+                
+                #css {
+                    right: 120px;
+                    position: absolute;
+                    opacity: 0.8;
+                    font-style: oblique;
+                    font-size: 15px;
+                    color: rgb(245, 242, 236);
+                    text-shadow: 1px 1px 3px blue, -1px -1px 6px blue;
+                }
+                
+                #javascript {
+                    left: 100px;
+                    position: absolute;
+                    opacity: 0.8;
+                    font-style: oblique;
+                    font-size: 15px;
+                    color: rgb(245, 242, 236);
+                    text-shadow: 1px 1px 3px blue, -1px -1px 6px blue;
+                }
+                
+                #react {
+                    right: 120px;
+                    position: absolute;
+                    opacity: 0.8;
+                    font-style: oblique;
+                    font-size: 15px;
+                    color: rgb(245, 242, 236);
+                    text-shadow: 1px 1px 3px blue, -1px -1px 6px blue;
+                }
+                
+                #node {
+                    left: 110px;
+                    position: absolute;
+                    opacity: 0.8;
+                    font-style: oblique;
+                    font-size: 15px;
+                    color: rgb(245, 242, 236);
+                    text-shadow: 1px 1px 3px blue, -1px -1px 6px blue;
+                }
+                
+                #express {
+                    right: 100px;
+                    position: absolute;
+                    opacity: 0.8;
+                    font-style: oblique;
+                    font-size: 15px;
+                    color: rgb(245, 242, 236);
+                    text-shadow: 1px 1px 3px blue, -1px -1px 6px blue;
+                }
+                
+                .footer {
+                    background-color: rgb(53, 17, 3);
+                    margin-top: 30px;
+                }
+                
+                #deimo {
+                    text-align: center;
+                    opacity: 0.8;
+                    font-style: oblique;
+                    font-size: 15px;
+                    color: rgb(210, 195, 165);
+                    text-shadow: 1px 1px 3px blue, -1px -1px 6px blue;
+                }
+                
+                #copywrite {
+                    text-align: center;
+                    opacity: 0.8;
+                    font-style: oblique;
+                    font-size: 13px;
+                    color: rgb(220, 207, 181);
+                    text-shadow: 1px 1px 3px blue, -1px -1px 6px blue;
+                }
+                
+                .social {
+                    bottom: 0px;
+                    text-align: center;
+                }
+                
+                .social a img {
+                    background-color: white;
+                    width: 18px;
+                    height: 18px;
+                    border-radius: 5px;
+                    margin: 3px;
+                    opacity: 0.75;
+                }
+                
+                .social a img:hover {
+                    opacity: 0.6;
+                    background-color: orange;
+                }
+                
+                .projectbox {
+                    box-shadow: 0 14px 15px rgb(0, 0, 11), 0 10px 5px rgb(2, 2, 8);
+                    background-color: rgb(85, 28, 5);
+                    margin: auto;
+                    width: 430px;
+                    margin: auto;
+                    flex-wrap: wrap;
+                    display: flex;
+                    align-content: center;
+                }
+                
+                .projectbox>a>div>img {
+                    box-shadow: 0 14px 15px rgb(0, 0, 11), 0 10px 5px rgb(2, 2, 8);
+                    border: solid 2px;
+                    width: 174px;
+                    height: 170px;
+                    opacity: 0.7;
+                    border-radius: 10px;
+                    padding: 3px;
+                    margin: 20px;
+                    background-color: rgb(2, 67, 110);
+                }
+                
+                .projectbox img:hover {
+                    width: 160px;
+                    height: 155px;
+                    background-color: rgb(223, 71, 11);
+                }
+                
+                #projhead {
+                    margin: 7px;
+                    opacity: 0.8;
+                    text-align: center;
+                    font-style: oblique;
+                    font-size: x-large;
+                    color: rgb(48, 241, 228);
+                    text-shadow: 1px 1px 3px blue, -1px -1px 6px blue;
+                }
+                
+                #project1 {
+                    left: 100px;
+                    position: absolute;
+                    opacity: 0.8;
+                    font-style: oblique;
+                    font-size: 15px;
+                    color: rgb(245, 242, 236);
+                    text-shadow: 1px 1px 3px blue, -1px -1px 6px blue;
+                }
+                
+                #project2 {
+                    right: 110px;
+                    position: absolute;
+                    opacity: 0.8;
+                    font-style: oblique;
+                    font-size: 15px;
+                    color: rgb(245, 242, 236);
+                    text-shadow: 1px 1px 3px blue, -1px -1px 6px blue;
+                }
+                
+                #project3 {
+                    left: 100px;
+                    position: absolute;
+                    opacity: 0.8;
+                    font-style: oblique;
+                    font-size: 15px;
+                    color: rgb(245, 242, 236);
+                    text-shadow: 1px 1px 3px blue, -1px -1px 6px blue;
+                }
+                
+                #project4 {
+                    right: 120px;
+                    position: absolute;
+                    opacity: 0.8;
+                    font-style: oblique;
+                    font-size: 15px;
+                    color: rgb(245, 242, 236);
+                    text-shadow: 1px 1px 3px blue, -1px -1px 6px blue;
+                }
+                
+                #project5 {
+                    left: 100px;
+                    position: absolute;
+                    opacity: 0.8;
+                    font-style: oblique;
+                    font-size: 15px;
+                    color: rgb(245, 242, 236);
+                    text-shadow: 1px 1px 3px blue, -1px -1px 6px blue;
+                }
+                
+                #project6 {
+                    right: 110px;
+                    position: absolute;
+                    opacity: 0.8;
+                    font-style: oblique;
+                    font-size: 15px;
+                    color: rgb(245, 242, 236);
+                    text-shadow: 1px 1px 3px blue, -1px -1px 6px blue;
+                }
+                
+                #contact1 {
+                    box-shadow: 0 14px 15px rgb(0, 0, 11), 0 10px 5px rgb(2, 2, 8);
+                    opacity: 0.7;
+                    margin: auto;
+                    background-color: rgb(6, 6, 71);
+                    height: 580px;
+                    width: 430px;
+                }
+                
+                #inputs {
+                    text-align: center;
+                    color: white;
+                    font-size: 18px;
+                }
+                
+                .exper {
+                    text-align: center;
+                    opacity: 0.8;
+                    font-style: oblique;
+                    font-size: 15px;
+                    color: rgb(245, 242, 236);
+                    text-shadow: 1px 1px 3px blue, -1px -1px 6px blue;
+                    font-size: 18px;
+                }
+                
+                h3 {
+                    margin: 2px;
+                    opacity: 0.9;
+                    font-style: oblique;
+                    font-size: 25px;
+                    color: rgb(20, 245, 226);
+                    text-shadow: 2px 2px 6px rgb(2, 2, 19), -2px -2px 6px blue;
+                }
+                
+                @media only screen and (min-width:720px) {
+                    .up {
+                        border: solid green 1px;
+                    }
+                    .plate2 {
+                        position: relative;
+                        margin: auto;
+                        top: 30px;
+                        box-shadow: 2px 2px 3px rgb(204, 197, 177), -2px -2px 3px rgb(179, 138, 3);
+                        background-color: rgb(6, 6, 71);
+                        border-radius: 10px;
+                        width: 650px;
+                        height: 250px;
+                        opacity: 0.3px;
+                    }
+                    #hello {
+                        opacity: 0.95;
+                        font-style: oblique;
+                        font-size: 30px;
+                        margin-top: -23px;
+                        margin-left: 10px;
+                        margin-bottom: 20px;
+                        color: white;
+                        text-shadow: 2px 2px 4px rgb(3, 3, 71), -2px -2px 6px blue;
+                    }
+                    #myname {
+                        opacity: 0.95;
+                        margin-top: 0px;
+                        margin-left: 25px;
+                        font-style: inherit;
+                        font-size: 48px;
+                        color: white;
+                        text-shadow: 2px 2px 6px blue, -2px -2px 6px blue;
+                    }
+                    #mydescription {
+                        margin-left: 10px;
+                        margin-top: -27px;
+                        margin-bottom: 10px;
+                        font-style: oblique;
+                        font-size: 30px;
+                        color: rgb(122, 122, 185);
+                        text-shadow: 2px 1px 4px rgb(24, 143, 121)-1px -1px 2px rgb(136, 13, 13);
+                    }
+                    .rot2 {
+                        margin-top: 15px;
+                        margin-left: 10px;
+                    }
+                    .rot1:hover {
+                        background-color: rgb(103, 8, 27);
+                    }
+                    .rot1 {
+                        margin: 4px;
+                        text-decoration: none;
+                        box-shadow: 1px 1px 2px rgb(35, 35, 170), -1px -1px 2px rgb(2, 2, 31);
+                        border: solid 1px;
+                        width: 21px;
+                        height: 21px;
+                        opacity: 0.8;
+                        border-radius: 5px;
+                        padding: 7px;
+                        color: white;
+                        background-color: rgb(224, 156, 66);
+                    }
+                    #portfollio {
+                        opacity: 0.95;
+                        margin-top: 9px;
+                        margin-left: 12px;
+                        font-style: inherit;
+                        font-size: 35px;
+                        color: white;
+                        text-shadow: 2px 2px 4px blue, -2px -2px 6px blue;
+                    }
+                    #mypic {
+                        position: absolute;
+                        right: 40px;
+                        top: 37px;
+                    }
+                    #mypic>img {
+                        box-shadow: 1px 1px 1px rgb(11, 11, 238), -1px -1px 1px rgb(14, 14, 238);
+                        border: solid 2px;
+                        width: 170px;
+                        height: 170px;
+                        opacity: 0.8;
+                        border-radius: 10px;
+                    }
+                    #firstcode {
+                        margin-left: 20px;
+                        display: inline-block;
+                    }
+                    #firstcode a {
+                        opacity: 0.9;
+                        font-size: 20px;
+                        margin: 5px;
+                        color: rgb(220, 226, 235);
+                    }
+                    #firstcode a:hover {
+                        color: rgba(207, 54, 8, 0.85);
+                    }
+                    #skills {
+                        margin-top: 45px;
+                        text-align: center;
+                        opacity: 0.8;
+                        font-style: oblique;
+                        font-size: 31px;
+                        color: rgb(20, 245, 226);
+                        text-shadow: 2px 2px 6px rgb(2, 2, 19), -2px -2px 6px blue;
+                    }
+                    .skillbox {
+                        box-shadow: 0 14px 15px rgb(0, 0, 11), 0 10px 5px rgb(2, 2, 8);
+                        background-color: rgb(85, 28, 5);
+                        margin: auto;
+                        width: 650px;
+                        display: flex;
+                        flex-wrap: wrap;
+                    }
+                    .skillbox>div>img {
+                        box-shadow: 0 14px 15px rgb(0, 0, 11), 0 10px 5px rgb(2, 2, 8);
+                        border: solid 2px;
+                        width: 270px;
+                        height: 250px;
+                        opacity: 0.7;
+                        border-radius: 10px;
+                        padding: 10px;
+                        margin: 27px;
+                        background-color: rgb(2, 67, 110);
+                    }
+                    .skillbox img:hover {
+                        background-color: rgb(223, 71, 11);
+                    }
+                    #html {
+                        left: 170px;
+                        position: absolute;
+                        opacity: 0.8;
+                        font-style: oblique;
+                        font-size: 21px;
+                        color: rgb(245, 242, 236);
+                        text-shadow: 1px 1px 3px blue, -1px -1px 6px blue;
+                    }
+                    #css {
+                        right: 170px;
+                        position: absolute;
+                        opacity: 0.8;
+                        font-style: oblique;
+                        font-size: 21px;
+                        color: rgb(245, 242, 236);
+                        text-shadow: 1px 1px 3px blue, -1px -1px 6px blue;
+                    }
+                    #javascript {
+                        left: 170px;
+                        position: absolute;
+                        opacity: 0.8;
+                        font-style: oblique;
+                        font-size: 15px;
+                        color: rgb(245, 242, 236);
+                        text-shadow: 1px 1px 3px blue, -1px -1px 6px blue;
+                    }
+                    #react {
+                        right: 170px;
+                        position: absolute;
+                        opacity: 0.8;
+                        font-style: oblique;
+                        font-size: 21px;
+                        color: rgb(245, 242, 236);
+                        text-shadow: 1px 1px 3px blue, -1px -1px 6px blue;
+                    }
+                    #node {
+                        left: 170px;
+                        position: absolute;
+                        opacity: 0.8;
+                        font-style: oblique;
+                        font-size: 21px;
+                        color: rgb(245, 242, 236);
+                        text-shadow: 1px 1px 3px blue, -1px -1px 6px blue;
+                    }
+                    #express {
+                        right: 170px;
+                        position: absolute;
+                        opacity: 0.8;
+                        font-style: oblique;
+                        font-size: 21px;
+                        color: rgb(245, 242, 236);
+                        text-shadow: 1px 1px 3px blue, -1px -1px 6px blue;
+                    }
+                    .footer {
+                        background-color: rgb(53, 17, 3);
+                        margin-top: 30px;
+                    }
+                    #deimo {
+                        text-align: center;
+                        opacity: 0.8;
+                        font-style: oblique;
+                        font-size: 21px;
+                        color: rgb(210, 195, 165);
+                        text-shadow: 1px 1px 3px blue, -1px -1px 6px blue;
+                    }
+                    #copywrite {
+                        text-align: center;
+                        opacity: 0.8;
+                        font-style: oblique;
+                        font-size: 19px;
+                        color: rgb(220, 207, 181);
+                        text-shadow: 1px 1px 3px blue, -1px -1px 6px blue;
+                    }
+                    .social {
+                        bottom: 0px;
+                        text-align: center;
+                    }
+                    .social a img {
+                        background-color: white;
+                        width: 18px;
+                        height: 18px;
+                        border-radius: 5px;
+                        margin: 3px;
+                        opacity: 0.75;
+                    }
+                    .social a img:hover {
+                        opacity: 0.6;
+                        background-color: orange;
+                    }
+                    .projectbox {
+                        box-shadow: 0 14px 15px rgb(0, 0, 11), 0 10px 5px rgb(2, 2, 8);
+                        background-color: rgb(85, 28, 5);
+                        margin: auto;
+                        width: 650px;
+                        margin: auto;
+                        flex-wrap: wrap;
+                        display: flex;
+                        align-content: center;
+                    }
+                    .projectbox>a>div>img {
+                        box-shadow: 0 14px 15px rgb(0, 0, 11), 0 10px 5px rgb(2, 2, 8);
+                        border: solid 2px;
+                        width: 270px;
+                        height: 250px;
+                        opacity: 0.7;
+                        border-radius: 10px;
+                        padding: 3px;
+                        margin: 27px;
+                        background-color: rgb(2, 67, 110);
+                    }
+                    .projectbox img:hover {
+                        width: 240px;
+                        height: 200px;
+                        background-color: rgb(223, 71, 11);
+                    }
+                    #projhead {
+                        margin: 7px;
+                        opacity: 0.8;
+                        text-align: center;
+                        font-style: oblique;
+                        font-size: x-large;
+                        color: rgb(48, 241, 228);
+                        text-shadow: 1px 1px 3px blue, -1px -1px 6px blue;
+                    }
+                    #project1 {
+                        left: 170px;
+                        position: absolute;
+                        opacity: 0.8;
+                        font-style: oblique;
+                        font-size: 21px;
+                        color: rgb(245, 242, 236);
+                        text-shadow: 1px 1px 3px blue, -1px -1px 6px blue;
+                    }
+                    #project2 {
+                        right: 170px;
+                        position: absolute;
+                        opacity: 0.8;
+                        font-style: oblique;
+                        font-size: 21px;
+                        color: rgb(245, 242, 236);
+                        text-shadow: 1px 1px 3px blue, -1px -1px 6px blue;
+                    }
+                    #project3 {
+                        left: 170px;
+                        position: absolute;
+                        opacity: 0.8;
+                        font-style: oblique;
+                        font-size: 21px;
+                        color: rgb(245, 242, 236);
+                        text-shadow: 1px 1px 3px blue, -1px -1px 6px blue;
+                    }
+                    #project4 {
+                        right: 170px;
+                        position: absolute;
+                        opacity: 0.8;
+                        font-style: oblique;
+                        font-size: 21px;
+                        color: rgb(245, 242, 236);
+                        text-shadow: 1px 1px 3px blue, -1px -1px 6px blue;
+                    }
+                    #project5 {
+                        left: 170px;
+                        position: absolute;
+                        opacity: 0.8;
+                        font-style: oblique;
+                        font-size: 21px;
+                        color: rgb(245, 242, 236);
+                        text-shadow: 1px 1px 3px blue, -1px -1px 6px blue;
+                    }
+                    #project6 {
+                        right: 170px;
+                        position: absolute;
+                        opacity: 0.8;
+                        font-style: oblique;
+                        font-size: 21px;
+                        color: rgb(245, 242, 236);
+                        text-shadow: 1px 1px 3px blue, -1px -1px 6px blue;
+                    }
+                    #contact1 {
+                        box-shadow: 0 14px 15px rgb(0, 0, 11), 0 10px 5px rgb(2, 2, 8);
+                        opacity: 0.7;
+                        margin: auto;
+                        background-color: rgb(6, 6, 71);
+                        height: 600px;
+                        width: 650px;
+                    }
+                    #inputs {
+                        text-align: center;
+                        color: white;
+                        font-size: 24px;
+                    }
+                    .exper {
+                        text-align: center;
+                        opacity: 0.8;
+                        font-style: oblique;
+                        font-size: 21px;
+                        color: rgb(245, 242, 236);
+                        text-shadow: 1px 1px 3px blue, -1px -1px 6px blue;
+                        font-size: 18px;
+                    }
+                    h3 {
+                        margin: 2px;
+                        opacity: 0.9;
+                        font-style: oblique;
+                        font-size: 31px;
+                        color: rgb(20, 245, 226);
+                        text-shadow: 2px 2px 6px rgb(2, 2, 19), -2px -2px 6px blue;
+                    }
+                }
