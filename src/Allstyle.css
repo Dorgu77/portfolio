@@ -142,12 +142,12 @@
                 .skillbox>div>img {
                     box-shadow: 0 14px 15px rgb(0, 0, 11), 0 10px 5px rgb(2, 2, 8);
                     border: solid 2px;
-                    width: 174px;
-                    height: 170px;
+                    width: 170px;
+                    height: 165px;
                     opacity: 0.7;
                     border-radius: 10px;
                     padding: 10px;
-                    margin: 23px;
+                    margin: 20px;
                     background-color: rgb(2, 67, 110);
                 }
                 
@@ -156,7 +156,7 @@
                 }
                 
                 #html {
-                    left: 110px;
+                    left: 85px;
                     position: absolute;
                     opacity: 0.8;
                     font-style: oblique;
@@ -176,7 +176,7 @@
                 }
                 
                 #javascript {
-                    left: 100px;
+                    left: 83px;
                     position: absolute;
                     opacity: 0.8;
                     font-style: oblique;
@@ -186,7 +186,7 @@
                 }
                 
                 #react {
-                    right: 120px;
+                    right: 110px;
                     position: absolute;
                     opacity: 0.8;
                     font-style: oblique;
@@ -196,7 +196,7 @@
                 }
                 
                 #node {
-                    left: 110px;
+                    left: 85px;
                     position: absolute;
                     opacity: 0.8;
                     font-style: oblique;
@@ -206,7 +206,7 @@
                 }
                 
                 #express {
-                    right: 100px;
+                    right: 105px;
                     position: absolute;
                     opacity: 0.8;
                     font-style: oblique;
@@ -297,7 +297,7 @@
                 }
                 
                 #project1 {
-                    left: 100px;
+                    left: 82px;
                     position: absolute;
                     opacity: 0.8;
                     font-style: oblique;
@@ -307,7 +307,7 @@
                 }
                 
                 #project2 {
-                    right: 110px;
+                    right: 92px;
                     position: absolute;
                     opacity: 0.8;
                     font-style: oblique;
@@ -317,7 +317,7 @@
                 }
                 
                 #project3 {
-                    left: 100px;
+                    left: 85px;
                     position: absolute;
                     opacity: 0.8;
                     font-style: oblique;
@@ -327,7 +327,7 @@
                 }
                 
                 #project4 {
-                    right: 120px;
+                    right: 90px;
                     position: absolute;
                     opacity: 0.8;
                     font-style: oblique;
@@ -337,7 +337,7 @@
                 }
                 
                 #project5 {
-                    left: 100px;
+                    left: 85px;
                     position: absolute;
                     opacity: 0.8;
                     font-style: oblique;
@@ -347,7 +347,7 @@
                 }
                 
                 #project6 {
-                    right: 110px;
+                    right: 85px;
                     position: absolute;
                     opacity: 0.8;
                     font-style: oblique;
@@ -388,6 +388,48 @@
                     font-size: 25px;
                     color: rgb(20, 245, 226);
                     text-shadow: 2px 2px 6px rgb(2, 2, 19), -2px -2px 6px blue;
+                }
+                
+                @media only screen and (min-width:450px) and (max-width:515px) {
+                    #html {
+                        left: 105px;
+                    }
+                    .skillbox {
+                        width: 420px;
+                    }
+                    #css {
+                        right: 105px;
+                    }
+                    #javascript {
+                        left: 90px;
+                    }
+                    #react {
+                        right: 95px;
+                    }
+                    #node {
+                        left: 95px;
+                    }
+                    #express {
+                        right: 95px;
+                    }
+                    #project1 {
+                        left: 95px;
+                    }
+                    #project2 {
+                        right: 95px;
+                    }
+                    #project3 {
+                        left: 95px;
+                    }
+                    #project4 {
+                        right: 95px;
+                    }
+                    #project5 {
+                        left: 95;
+                    }
+                    #project6 {
+                        right: 95px;
+                    }
                 }
                 
                 @media only screen and (min-width:720px) {
