@@ -20,16 +20,21 @@ body {
     box-shadow: 2px 2px 3px rgb(204, 197, 177), -2px -2px 3px rgb(179, 138, 3);
     background-color: rgb(6, 6, 71);
     border-radius: 10px;
-    width: 430px;
-    height: 165px;
+    width: 360px;
+    height: 150px;
     opacity: 0.3px;
+}
+
+.footer {
+    margin-top: 25px;
+    background-color: rgb(61, 3, 3);
 }
 
 #hello {
     opacity: 0.95;
     font-style: oblique;
-    font-size: 18px;
-    margin-left: 10px;
+    font-size: 15px;
+    margin-left: 8px;
     margin-bottom: 20px;
     color: white;
     text-shadow: 2px 2px 4px rgb(3, 3, 71), -2px -2px 6px blue;
@@ -38,19 +43,19 @@ body {
 #myname {
     opacity: 0.95;
     margin-top: 3px;
-    margin-left: 23px;
+    margin-left: 21px;
     font-style: inherit;
-    font-size: 34px;
+    font-size: 26px;
     color: white;
     text-shadow: 2px 2px 6px blue, -2px -2px 6px blue;
 }
 
 #mydescription {
-    margin-left: 10px;
+    margin-left: 6px;
     margin-top: 1px;
     margin-bottom: 10px;
     font-style: oblique;
-    font-size: 20px;
+    font-size: 16px;
     color: rgb(122, 122, 185);
     text-shadow: 2px 1px 4px rgb(24, 143, 121)-1px -1px 2px rgb(136, 13, 13);
 }
@@ -96,8 +101,8 @@ body {
 #mypic>img {
     box-shadow: 1px 1px 1px rgb(11, 11, 238), -1px -1px 1px rgb(14, 14, 238);
     border: solid 2px;
-    width: 120px;
-    height: 120px;
+    width: 110px;
+    height: 110px;
     opacity: 0.8;
     border-radius: 10px;
 }
@@ -121,7 +126,7 @@ body {
 #skills {
     text-shadow: 1px 1px 1px rgb(219, 242, 9), -1px -1px 1px rgb(2, 61, 143);
     margin-top: 70px;
-    margin-left: 160px;
+    margin-left: 140px;
     opacity: 0.8;
     font-style: oblique;
     font-size: 30px;
@@ -137,9 +142,9 @@ body {
 }
 
 .skillbox {
-    box-shadow: 0 4px 5px rgb(2, 47, 132), 0 5px 5px rgb(2, 2, 8);
+    box-shadow: 0 4px 5px rgb(2, 47, 132), 0 4px 5px rgb(2, 47, 132);
     margin: auto;
-    width: 440px;
+    width: 360px;
     display: flex;
     flex-wrap: wrap;
 }
@@ -157,7 +162,7 @@ body {
 }
 
 .skillbox>div>img {
-    margin-left: 145px;
+    margin-left: 120px;
     opacity: 0.7;
     height: 50px;
     width: 50px;
@@ -267,7 +272,7 @@ body {
     box-shadow: 0 4px 5px rgb(2, 47, 132), 0 5px 5px rgb(2, 2, 8);
     background-color: rgb(57, 21, 7);
     margin: auto;
-    width: 430px;
+    width: 360px;
     margin: auto;
     flex-wrap: wrap;
     display: flex;
@@ -277,12 +282,12 @@ body {
 .projectbox>a>div>img {
     box-shadow: 0 14px 15px rgb(0, 0, 11), 0 10px 5px rgb(2, 2, 8);
     border: solid 2px;
-    width: 170px;
-    height: 168px;
+    width: 150px;
+    height: 146px;
     opacity: 0.7;
     border-radius: 10px;
     padding: 3px;
-    margin: 20px;
+    margin: 15px;
     background-color: rgb(2, 67, 110);
 }
 
@@ -312,7 +317,7 @@ body {
 }
 
 #project2 {
-    right: 80px;
+    right: 75px;
     position: absolute;
     opacity: 0.8;
     font-style: oblique;
@@ -321,7 +326,7 @@ body {
 }
 
 #project3 {
-    left: 75px;
+    left: 70px;
     position: absolute;
     opacity: 0.8;
     font-style: oblique;
@@ -330,7 +335,7 @@ body {
 }
 
 #project4 {
-    right: 80px;
+    right: 75px;
     position: absolute;
     opacity: 0.8;
     font-style: oblique;
@@ -339,7 +344,7 @@ body {
 }
 
 #project5 {
-    left: 75px;
+    left: 68px;
     position: absolute;
     opacity: 0.8;
     font-style: oblique;
@@ -348,7 +353,7 @@ body {
 }
 
 #project6 {
-    right: 75px;
+    right: 70px;
     position: absolute;
     opacity: 0.8;
     font-style: oblique;
@@ -361,8 +366,8 @@ body {
     opacity: 0.7;
     margin: auto;
     background-color: rgb(143, 143, 181);
-    height: 720px;
-    width: 430px;
+    height: 640px;
+    width: 360px;
 }
 
 #inputs {
@@ -376,7 +381,7 @@ body {
     font-weight: 500;
     text-align: center;
     font-style: oblique;
-    font-size: 23px;
+    font-size: 18px;
 }
 
 .stackmid {
@@ -395,30 +400,33 @@ h3 {
     text-shadow: 2px 2px 6px rgb(2, 2, 19), -2px -2px 6px blue;
 }
 
-@media only screen and (min-width:450px) and (max-width:515px) {
+@media only screen and (min-width:400px) and (max-width:515px) {
     #html {
         left: 105px;
     }
     .skillbox {
-        width: 420px;
+        width: 360px;
+    }
+    .projectbox {
+        width: 360px;
     }
     #project1 {
-        left: 107px;
+        left: 68px;
     }
     #project2 {
-        right: 107px;
+        right: 75px;
     }
     #project3 {
-        left: 107px;
+        left: 68px;
     }
     #project4 {
-        right: 107px;
+        right: 75px;
     }
     #project5 {
-        left: 107px;
+        left: 68px;
     }
     #project6 {
-        right: 107px;
+        right: 70px;
     }
 }
 
