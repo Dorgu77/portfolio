@@ -20,7 +20,7 @@ body {
     box-shadow: 2px 2px 3px rgb(204, 197, 177), -2px -2px 3px rgb(179, 138, 3);
     background-color: rgb(6, 6, 71);
     border-radius: 10px;
-    width: 360px;
+    width: 340px;
     height: 150px;
     opacity: 0.3px;
 }
@@ -41,11 +41,11 @@ body {
 }
 
 #myname {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     opacity: 0.95;
     margin-top: 3px;
     margin-left: 21px;
-    font-style: inherit;
-    font-size: 26px;
+    font-size: 32px;
     color: white;
     text-shadow: 2px 2px 6px blue, -2px -2px 6px blue;
 }
@@ -101,7 +101,7 @@ body {
 #mypic>img {
     box-shadow: 1px 1px 1px rgb(11, 11, 238), -1px -1px 1px rgb(14, 14, 238);
     border: solid 2px;
-    width: 110px;
+    width: 100px;
     height: 110px;
     opacity: 0.8;
     border-radius: 10px;
@@ -116,7 +116,7 @@ body {
     opacity: 0.9;
     font-size: 14px;
     margin: 5px;
-    color: rgb(220, 226, 235);
+    color: rgb(236, 179, 64);
 }
 
 #firstcode a:hover {
@@ -124,19 +124,19 @@ body {
 }
 
 #skills {
-    text-shadow: 1px 1px 1px rgb(219, 242, 9), -1px -1px 1px rgb(2, 61, 143);
     margin-top: 70px;
-    margin-left: 140px;
+    margin-left: 114px;
     opacity: 0.8;
-    font-style: oblique;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 30px;
-    color: rgb(20, 245, 226);
+    color: rgb(8, 183, 168);
 }
 
 .stacks {
     text-shadow: 1px 1px 1px rgb(80, 30, 1), -1px -1px 1px rgb(103, 32, 2);
     margin-bottom: 6px;
     text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 30px;
     color: rgb(11, 17, 193);
 }
@@ -237,8 +237,8 @@ body {
     opacity: 0.8;
     font-style: oblique;
     font-size: 15px;
-    color: rgb(210, 195, 165);
-    text-shadow: 1px 1px 3px blue, -1px -1px 6px blue;
+    color: rgb(231, 157, 10);
+    text-shadow: 1px 1px 2px blue, -1px -1px 4px blue;
 }
 
 #copywrite {
@@ -246,7 +246,7 @@ body {
     opacity: 0.8;
     font-style: oblique;
     font-size: 13px;
-    color: rgb(220, 207, 181);
+    color: rgb(231, 157, 10);
     text-shadow: 1px 1px 3px blue, -1px -1px 6px blue;
 }
 
@@ -298,29 +298,29 @@ body {
 }
 
 #projhead {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin: 7px;
     opacity: 0.8;
     text-align: center;
     font-size: 25px;
-    font-style: oblique;
     color: rgb(48, 241, 228);
     text-shadow: 1px 1px 3px blue, -1px -1px 6px blue;
 }
 
 #project1 {
+    color: rgb(245, 242, 236);
     left: 70px;
     position: absolute;
-    opacity: 0.8;
-    font-style: oblique;
-    color: rgb(245, 242, 236);
+    opacity: 0.7;
+    font-family: Georgia;
     text-shadow: 1px 1px 3px blue, -1px -1px 6px blue;
 }
 
 #project2 {
-    right: 75px;
+    right: 62px;
     position: absolute;
-    opacity: 0.8;
-    font-style: oblique;
+    opacity: 0.7;
+    font-family: Georgia;
     color: rgb(245, 242, 236);
     text-shadow: 1px 1px 3px blue, -1px -1px 6px blue;
 }
@@ -328,17 +328,17 @@ body {
 #project3 {
     left: 70px;
     position: absolute;
-    opacity: 0.8;
-    font-style: oblique;
+    opacity: 0.7;
+    font-family: Georgia;
     color: rgb(245, 242, 236);
     text-shadow: 1px 1px 3px blue, -1px -1px 6px blue;
 }
 
 #project4 {
-    right: 75px;
+    right: 65px;
     position: absolute;
-    opacity: 0.8;
-    font-style: oblique;
+    opacity: 0.7;
+    font-family: Georgia;
     color: rgb(245, 242, 236);
     text-shadow: 1px 1px 3px blue, -1px -1px 6px blue;
 }
@@ -347,16 +347,16 @@ body {
     left: 68px;
     position: absolute;
     opacity: 0.8;
-    font-style: oblique;
+    font-family: Georgia;
     color: rgb(245, 242, 236);
     text-shadow: 1px 1px 3px blue, -1px -1px 6px blue;
 }
 
 #project6 {
-    right: 70px;
+    right: 60px;
     position: absolute;
-    opacity: 0.8;
-    font-style: oblique;
+    opacity: 0.7;
+    font-family: Georgia;
     color: rgb(245, 242, 236);
     text-shadow: 1px 1px 3px blue, -1px -1px 6px blue;
 }
@@ -366,8 +366,8 @@ body {
     opacity: 0.7;
     margin: auto;
     background-color: rgb(143, 143, 181);
-    height: 640px;
-    width: 360px;
+    height: 660px;
+    width: 330px;
 }
 
 #inputs {
@@ -376,28 +376,28 @@ body {
 }
 
 .exper {
-    color: rgb(220, 207, 181);
-    text-shadow: 1px 1px 3px blue, -1px -1px 6px blue;
+    font-family: Georgia;
+    text-shadow: 0px 0px 1px blue, -1px -1px 1px blue;
     font-weight: 500;
     text-align: center;
-    font-style: oblique;
+    color: rgb(131, 46, 4);
     font-size: 18px;
 }
 
 .stackmid {
-    color: rgb(79, 3, 3);
+    font-family: Georgia;
+    color: rgb(34, 3, 3);
     font-weight: 500;
     text-align: center;
-    font-style: oblique;
     font-size: 20px;
 }
 
 h3 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-shadow: 1px 1px 1px rgb(80, 30, 1), -1px -1px 1px rgb(103, 32, 2);
     margin: 2px;
-    font-style: oblique;
-    color: rgb(20, 245, 226);
     text-shadow: 2px 2px 6px rgb(2, 2, 19), -2px -2px 6px blue;
+    color: rgb(20, 245, 226);
 }
 
 @media only screen and (min-width:400px) and (max-width:515px) {
@@ -414,19 +414,19 @@ h3 {
         left: 68px;
     }
     #project2 {
-        right: 75px;
+        right: 62px;
     }
     #project3 {
         left: 68px;
     }
     #project4 {
-        right: 75px;
+        right: 65px;
     }
     #project5 {
         left: 68px;
     }
     #project6 {
-        right: 70px;
+        right: 60px;
     }
 }
 
@@ -448,7 +448,7 @@ h3 {
     #hello {
         opacity: 0.95;
         font-style: oblique;
-        font-size: 30px;
+        font-size: 33px;
         margin-top: -23px;
         margin-left: 10px;
         margin-bottom: 20px;
@@ -460,16 +460,16 @@ h3 {
         margin-top: 0px;
         margin-left: 25px;
         font-style: inherit;
-        font-size: 48px;
+        font-size: 74px;
         color: white;
         text-shadow: 2px 2px 6px blue, -2px -2px 6px blue;
     }
     #mydescription {
         margin-left: 10px;
-        margin-top: -27px;
+        margin-top: -17px;
         margin-bottom: 10px;
         font-style: oblique;
-        font-size: 30px;
+        font-size: 33px;
         color: rgb(122, 122, 185);
         text-shadow: 2px 1px 4px rgb(24, 143, 121)-1px -1px 2px rgb(136, 13, 13);
     }
@@ -546,13 +546,10 @@ h3 {
         flex-wrap: wrap;
     }
     .skillbox>div>img {
-        width: 100px;
-        position: absolute;
-        height: 70px;
-        left: 230px;
-        border-radius: 10px;
-        padding: 10px;
-        top: -5px;
+        margin-left: 260px;
+        opacity: 0.7;
+        height: 90px;
+        width: 50px;
     }
     .skillbox>div>img:hover {
         background-color: rgb(56, 185, 9)
@@ -616,15 +613,13 @@ h3 {
         opacity: 0.8;
         font-style: oblique;
         font-size: 21px;
-        color: rgb(210, 195, 165);
-        text-shadow: 1px 1px 3px blue, -1px -1px 6px blue;
+        color: rgb(231, 157, 10);
+        text-shadow: 1px 1px 3px blue, -1px -1px 4px blue;
     }
     #copywrite {
-        text-align: center;
         opacity: 0.8;
-        font-style: oblique;
         font-size: 19px;
-        color: rgb(220, 207, 181);
+        color: rgb(231, 157, 10);
         text-shadow: 1px 1px 3px blue, -1px -1px 6px blue;
     }
     .social {
@@ -667,37 +662,36 @@ h3 {
         text-shadow: 1px 1px 3px blue, -1px -1px 6px blue;
     }
     #project1 {
-        left: 170px;
-        position: absolute;
-        opacity: 0.8;
-        font-style: oblique;
+        opacity: 0.7;
+        left: 150px;
+        font-family: Georgia;
         font-size: 21px;
         color: rgb(245, 242, 236);
         text-shadow: 1px 1px 3px blue, -1px -1px 6px blue;
     }
     #project2 {
-        right: 170px;
-        position: absolute;
-        opacity: 0.8;
-        font-style: oblique;
         font-size: 21px;
+        right: 130px;
+        position: absolute;
+        opacity: 0.7;
+        font-family: Georgia;
         color: rgb(245, 242, 236);
         text-shadow: 1px 1px 3px blue, -1px -1px 6px blue;
     }
     #project3 {
-        left: 170px;
+        left: 150px;
         position: absolute;
-        opacity: 0.8;
-        font-style: oblique;
+        opacity: 0.7;
+        font-family: Georgia;
         font-size: 21px;
         color: rgb(245, 242, 236);
         text-shadow: 1px 1px 3px blue, -1px -1px 6px blue;
     }
     #project4 {
-        right: 170px;
+        right: 130px;
         position: absolute;
-        opacity: 0.8;
-        font-style: oblique;
+        opacity: 0.7;
+        font-family: Georgia;
         font-size: 21px;
         color: rgb(245, 242, 236);
         text-shadow: 1px 1px 3px blue, -1px -1px 6px blue;
@@ -716,19 +710,19 @@ h3 {
         border-color: rgb(36, 3, 168);
     }
     #project5 {
-        left: 170px;
+        left: 150px;
         position: absolute;
-        opacity: 0.8;
-        font-style: oblique;
+        opacity: 0.7;
+        font-family: Georgia;
         font-size: 21px;
         color: rgb(245, 242, 236);
         text-shadow: 1px 1px 3px blue, -1px -1px 6px blue;
     }
     #project6 {
-        right: 170px;
+        right: 130px;
         position: absolute;
-        opacity: 0.8;
-        font-style: oblique;
+        opacity: 0.7;
+        font-family: Georgia;
         font-size: 21px;
         color: rgb(245, 242, 236);
         text-shadow: 1px 1px 3px blue, -1px -1px 6px blue;
@@ -738,7 +732,7 @@ h3 {
         opacity: 0.7;
         margin: auto;
         background-color: rgb(143, 143, 181);
-        height: 700px;
+        height: 800px;
         width: 650px;
     }
     #inputs {
@@ -747,18 +741,17 @@ h3 {
         font-size: 24px;
     }
     .exper {
+        color: rgb(131, 46, 4);
         text-align: center;
         opacity: 0.8;
-        font-style: oblique;
-        font-size: 21px;
-        color: rgb(245, 242, 236);
+        font-size: 25px;
+        font-family: Georgia;
         text-shadow: 1px 1px 3px blue, -1px -1px 6px blue;
-        font-size: 18px;
     }
     h3 {
         margin-left: 70px;
         opacity: 0.8;
-        font-style: oblique;
+        font-family: Georgia;
         font-size: 30px;
         color: rgb(20, 245, 226);
     }
