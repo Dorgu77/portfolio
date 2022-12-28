@@ -21,7 +21,7 @@ body {
     background-color: rgb(6, 6, 71);
     border-radius: 10px;
     width: 340px;
-    height: 150px;
+    height: 165px;
     opacity: 0.3px;
 }
 
@@ -44,7 +44,7 @@ body {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     opacity: 0.95;
     margin-top: 3px;
-    margin-left: 21px;
+    margin-left: 16px;
     font-size: 32px;
     color: white;
     text-shadow: 2px 2px 6px blue, -2px -2px 6px blue;
@@ -113,10 +113,10 @@ body {
 }
 
 #firstcode a {
-    opacity: 0.9;
+    opacity: 0.7;
     font-size: 14px;
     margin: 5px;
-    color: rgb(236, 179, 64);
+    color: white;
 }
 
 #firstcode a:hover {
@@ -162,7 +162,7 @@ body {
 }
 
 .skillbox>div>img {
-    margin-left: 120px;
+    margin-left: 110px;
     opacity: 0.7;
     height: 50px;
     width: 50px;
@@ -366,7 +366,7 @@ body {
     opacity: 0.7;
     margin: auto;
     background-color: rgb(143, 143, 181);
-    height: 660px;
+    height: 690px;
     width: 330px;
 }
 
@@ -380,8 +380,9 @@ body {
     text-shadow: 0px 0px 1px blue, -1px -1px 1px blue;
     font-weight: 500;
     text-align: center;
-    color: rgb(131, 46, 4);
+    opacity: 0.6;
     font-size: 18px;
+    color: rgb(123, 236, 227);
 }
 
 .stackmid {
@@ -442,7 +443,7 @@ h3 {
         background-color: rgb(6, 6, 71);
         border-radius: 10px;
         width: 650px;
-        height: 250px;
+        height: 265px;
         opacity: 0.3px;
     }
     #hello {
@@ -458,7 +459,7 @@ h3 {
     #myname {
         opacity: 0.95;
         margin-top: 0px;
-        margin-left: 25px;
+        margin-left: 20px;
         font-style: inherit;
         font-size: 74px;
         color: white;
@@ -531,7 +532,7 @@ h3 {
     #skills {
         text-shadow: 1px 1px 1px rgb(219, 242, 9), -1px -1px 1px rgb(2, 61, 143);
         margin-top: 70px;
-        margin-left: 270px;
+        margin-left: 250px;
         opacity: 0.8;
         font-style: oblique;
         font-size: 30px;
@@ -546,7 +547,7 @@ h3 {
         flex-wrap: wrap;
     }
     .skillbox>div>img {
-        margin-left: 260px;
+        margin-left: 250px;
         opacity: 0.7;
         height: 90px;
         width: 50px;
@@ -741,7 +742,7 @@ h3 {
         font-size: 24px;
     }
     .exper {
-        color: rgb(131, 46, 4);
+        color: rgb(123, 236, 227);
         text-align: center;
         opacity: 0.8;
         font-size: 25px;
