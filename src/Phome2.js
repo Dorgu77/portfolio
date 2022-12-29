@@ -54,7 +54,7 @@ return(
 
 <div> <img src="frontend.png" /><h5 className="stacks">Front end</h5><div className="stackmid">we design and develop scalable frontend layouts from idea stage to product level..
 Our engineers are equiped with skills like..<br/>
-<div style={{textAlign:"center"}}><br/>
+<div style={{textAlign:"center"}}>
 <b>Javascript <br/>
 Css <br/>
 Html<br/>
@@ -64,7 +64,7 @@ React.js</b>
 </div>
 
 <div> <img src="backend.png" /><h5 className="stacks">Back end</h5><div className="stackmid">we design and develop scalable back end APIs and servers from idea stage to product level..
-Our engineers are equiped with skills like..<br/><br/>
+Our engineers are equiped with skills like..<br/>
 <div style={{textAlign:"center"}}>
 <b>Node.js <br/>
 Express <br/>
@@ -74,18 +74,18 @@ Express <br/>
 <div> <img src="database.png" /><h5 className="stacks">DataBase</h5><div className="stackmid">we design and develop scalable frontend layouts from idea stage to product level..
 Our engineers are equiped with skills like..<br/>
 <div style={{textAlign:"center"}}>
-<b><br/>
+<b>
 Mysq<br/>
 MongoDB<br/></b>
 </div>
 </div></div>
 
 
-<div> <img src="mobile.png" /><h5 className="stacks">Mobile</h5><div className="stackmid">we design and develop scalable frontend layouts from idea stage to product level,
+<div> <img src="mobile.png" /><h5 className="stacks">Android</h5><div className="stackmid">we design and develop scalable frontend layouts from idea stage to product level,
 products are bulit for both android and ios platforms..
-Our engineers are equiped with skills like..<br/>
+Our engineers are equiped with skills like..
 <div style={{textAlign:"center"}}>
-<b><br/>
+<b>
 React native<br/>
 Kotlin
 <br/></b>
@@ -99,14 +99,14 @@ Kotlin
 
 <div className="exper">
  <h3>Experiences</h3>
-Front end developer
+ Front end web and mobile developer
 
- Three years of experience in freelance 
+ with three years of experience in freelance 
  and fulltime jobs...</div>
 
 <br/>
 <div id="inputs">
-<a  id="hir"><span className="stackmid">Contact form</span></a>
+<a  id="hir"><span>Contact form</span></a>
                 <form action="https://www.formsubmit.co/deimodorgutech@gmail.com" method="post">
             <input placeholder="company name"  style={{color:"orange", fontSize:"20px"}} size="20" className="py" name="company" required type="text"onChange={gas}   value={ind.company} /><br/><br/>
             <input  placeholder="role"  style={{color:"orange", fontSize:"20px"}} size="20" type="text"  className="py" name="role"  required onChange={gas}  value={ind.role} /><br/><br/>
@@ -129,9 +129,9 @@ Front end developer
          <br/>   
 <div className="exper">
 <a id="ab"> <h3>About me</h3></a>
-    Am dorgu deimo, a front end web designer and developer based in Nigeria.<br/>
-    mobile: 08167693412 <br/>
-    Address: no 36 erepa road yenagoa<br/>
+    Am dorgu deimo a front end web designer and <br />developer based in Nigeria.
+    <br/> mobile: 08167693412
+    <br/>Address: no 36 erepa road yenagoa<br/>
     Email:deimodorgutech@gmail
 </div>
            </div>
@@ -148,19 +148,19 @@ Front end developer
 <a  target="blank" href="
 https://play.google.com/store/apps/details?id=baap.app&referrer=utm_source%3Dapps.facebook.com%26utm_campaign%3Dfb4a%26utm_content%3D%257B%2522app%2522%253A0%252C%2522t%2522%253A1671969462%252C%2522source%2522%253Anull%257D
 
-"><div><span id="project1">Baap app</span><img  src="baap.png"/></div></a>
-<a  target="blank" href="https://play.google.com/store/apps/details?id=com.dr_recruiter"><div><span id="project2">Dr recruiter</span><img  src="dr.png"/></div></a>
-<a  target="blank" href="http://13.235.74.134"><div><span id="project3">Bike site</span><img  src="wep.png"/></div></a>
-<a  target="blank" href="https://www.rainforestcafe.com"><div><span id="project4">forest cafe</span><img  src="rainforest.png"/></div></a>
-<a  target="blank" href="https://quizninja.netlify.app/#/"><div><span id="project5">   Quiz ninja</span><img  src="ninja.png"/></div></a>
+"><div><span id="project1">Baap app</span><br /><img  src="baap.png"/></div></a>
+<a  target="blank" href="https://play.google.com/store/apps/details?id=com.dr_recruiter"><div><span id="project2">Dr recruiter</span><br /><img  src="dr.png"/></div></a>
+<a  target="blank" href="http://13.235.74.134"><div><span id="project3">Bike site</span><br /><img  src="wep.png"/></div></a>
+<a  target="blank" href="https://www.rainforestcafe.com"><div><span id="project4">forest cafe</span><br /><img  src="rainforest.png"/></div></a>
+<a  target="blank" href="https://quizninja.netlify.app/#/"><div><span id="project5">   Quiz ninja</span><br /><img  src="ninja.png"/></div></a>
 <a  target="blank" href="https://hoteltask.com/hoteltask/public/login
-"><div><span id="project6">Hotel booking</span><img  src="hotel.png"/></div></a>
+"><div><span id="project6">Hotel booking</span><br /><img  src="hotel.png"/></div></a>
 </div>
+
 
 
 <footer className="footer">
 <br/>
-
 <div className="social">
         <a  target="_blank" href="https://www.facebook.com/dorgu.deimo"><img src="reatface.png" /></a>
       <a  target="_blank" href="https://www.instagram.com/p/CVcgPRWMQWO/?igshid=YmMyMTA2M2"><img src="realinsta.png" /></a>
