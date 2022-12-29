@@ -44,7 +44,7 @@ body {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     opacity: 0.95;
     margin-top: 3px;
-    margin-left: 16px;
+    margin-left: 11px;
     font-size: 32px;
     color: white;
     text-shadow: 2px 2px 6px blue, -2px -2px 6px blue;
@@ -66,7 +66,8 @@ body {
 }
 
 .rot1:hover {
-    background-color: rgb(105, 62, 6);
+    color: blue;
+    background-color: white;
 }
 
 .rot1 {
@@ -79,7 +80,6 @@ body {
     border-radius: 5px;
     padding: 3px;
     color: white;
-    background-color: rgb(57, 21, 7);
 }
 
 #portfollio {
@@ -94,7 +94,7 @@ body {
 
 #mypic {
     position: absolute;
-    right: 17px;
+    right: 12px;
     top: 23px;
 }
 
@@ -125,7 +125,7 @@ body {
 
 #skills {
     margin-top: 70px;
-    margin-left: 114px;
+    margin-left: 100px;
     opacity: 0.8;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 30px;
@@ -299,7 +299,7 @@ body {
 
 #projhead {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    margin: 7px;
+    margin: 18px;
     opacity: 0.8;
     text-align: center;
     font-size: 25px;
@@ -309,7 +309,7 @@ body {
 
 #project1 {
     color: rgb(245, 242, 236);
-    left: 70px;
+    left: 50px;
     position: absolute;
     opacity: 0.7;
     font-family: Georgia;
@@ -317,7 +317,7 @@ body {
 }
 
 #project2 {
-    right: 62px;
+    right: 42px;
     position: absolute;
     opacity: 0.7;
     font-family: Georgia;
@@ -326,7 +326,7 @@ body {
 }
 
 #project3 {
-    left: 70px;
+    left: 50px;
     position: absolute;
     opacity: 0.7;
     font-family: Georgia;
@@ -335,7 +335,7 @@ body {
 }
 
 #project4 {
-    right: 65px;
+    right: 45px;
     position: absolute;
     opacity: 0.7;
     font-family: Georgia;
@@ -344,7 +344,7 @@ body {
 }
 
 #project5 {
-    left: 68px;
+    left: 48px;
     position: absolute;
     opacity: 0.8;
     font-family: Georgia;
@@ -353,7 +353,7 @@ body {
 }
 
 #project6 {
-    right: 60px;
+    right: 40px;
     position: absolute;
     opacity: 0.7;
     font-family: Georgia;
@@ -376,13 +376,13 @@ body {
 }
 
 .exper {
+    text-shadow: 0px 0px px blue, -1px -1px 1px blue;
     font-family: Georgia;
-    text-shadow: 0px 0px 1px blue, -1px -1px 1px blue;
     font-weight: 500;
     text-align: center;
-    opacity: 0.6;
+    opacity: 0.7;
     font-size: 18px;
-    color: rgb(123, 236, 227);
+    color: rgb(8, 1, 1);
 }
 
 .stackmid {
@@ -412,22 +412,22 @@ h3 {
         width: 360px;
     }
     #project1 {
-        left: 68px;
+        left: 48px;
     }
     #project2 {
-        right: 62px;
+        right: 42px;
     }
     #project3 {
-        left: 68px;
+        left: 48px;
     }
     #project4 {
-        right: 65px;
+        right: 45px;
     }
     #project5 {
-        left: 68px;
+        left: 48px;
     }
     #project6 {
-        right: 60px;
+        right: 40px;
     }
 }
 
@@ -459,7 +459,7 @@ h3 {
     #myname {
         opacity: 0.95;
         margin-top: 0px;
-        margin-left: 20px;
+        margin-left: 15px;
         font-style: inherit;
         font-size: 74px;
         color: white;
@@ -479,7 +479,8 @@ h3 {
         margin-left: 10px;
     }
     .rot1:hover {
-        background-color: rgb(103, 8, 27);
+        color: blue;
+        background-color: white;
     }
     .rot1 {
         margin: 4px;
@@ -505,7 +506,7 @@ h3 {
     }
     #mypic {
         position: absolute;
-        right: 40px;
+        right: 33px;
         top: 37px;
     }
     #mypic>img {
@@ -654,7 +655,7 @@ h3 {
         background-color: rgb(223, 71, 11);
     }
     #projhead {
-        margin: 7px;
+        margin: 12px;
         opacity: 0.8;
         text-align: center;
         font-style: oblique;
@@ -664,7 +665,7 @@ h3 {
     }
     #project1 {
         opacity: 0.7;
-        left: 150px;
+        left: 130px;
         font-family: Georgia;
         font-size: 21px;
         color: rgb(245, 242, 236);
@@ -672,7 +673,7 @@ h3 {
     }
     #project2 {
         font-size: 21px;
-        right: 130px;
+        right: 110px;
         position: absolute;
         opacity: 0.7;
         font-family: Georgia;
@@ -680,7 +681,7 @@ h3 {
         text-shadow: 1px 1px 3px blue, -1px -1px 6px blue;
     }
     #project3 {
-        left: 150px;
+        left: 130px;
         position: absolute;
         opacity: 0.7;
         font-family: Georgia;
@@ -689,7 +690,7 @@ h3 {
         text-shadow: 1px 1px 3px blue, -1px -1px 6px blue;
     }
     #project4 {
-        right: 130px;
+        right: 110px;
         position: absolute;
         opacity: 0.7;
         font-family: Georgia;
@@ -711,7 +712,7 @@ h3 {
         border-color: rgb(36, 3, 168);
     }
     #project5 {
-        left: 150px;
+        left: 130px;
         position: absolute;
         opacity: 0.7;
         font-family: Georgia;
@@ -720,7 +721,7 @@ h3 {
         text-shadow: 1px 1px 3px blue, -1px -1px 6px blue;
     }
     #project6 {
-        right: 130px;
+        right: 110px;
         position: absolute;
         opacity: 0.7;
         font-family: Georgia;
