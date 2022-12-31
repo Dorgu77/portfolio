@@ -38,7 +38,7 @@ return(
    
     <span id="hello">Hello, Am </span><span id="mypic"><img  src="usepic.png"/></span>
     <h1 id="myname">DEIMO DORGU</h1> 
-    <div id="mydescription">Am a frontend web developer..</div>
+    <div id="mydescription">Am a frontend web developer.</div>
     
     <div className="rot2">
     <a  href="#hir"><span className="rot1">hire me</span></a>
@@ -108,20 +108,20 @@ Kotlin
 <div id="inputs">
 <a  id="hir"><span>Contact form</span></a>
                 <form action="https://www.formsubmit.co/deimodorgutech@gmail.com" method="post">
-            <input placeholder="company name"  style={{color:"orange", fontSize:"20px"}} size="20" className="py" name="company" required type="text"onChange={gas}   value={ind.company} /><br/><br/>
-            <input  placeholder="role"  style={{color:"orange", fontSize:"20px"}} size="20" type="text"  className="py" name="role"  required onChange={gas}  value={ind.role} /><br/><br/>
-            <input type="text" placeholder="country" style={{color:"orange", fontSize:"20px"}} size="20" name="country" className="py"required onChange={gas} value={ind.country}  /><br/><br/>
+            <input placeholder="company name"  style={{color:"orange", opacity:"0.6", fontSize:"20px"}} size="20" className="py" name="company" required type="text"onChange={gas}   value={ind.company} /><br/><br/>
+            <input  placeholder="role"  style={{color:"orange", opacity:"0.6", fontSize:"20px"}} size="20" type="text"  className="py" name="role"  required onChange={gas}  value={ind.role} /><br/><br/>
+            <input type="text" placeholder="country" style={{color:"orange", opacity:"0.6", fontSize:"20px"}} size="20" name="country" className="py"required onChange={gas} value={ind.country}  /><br/><br/>
 
-            <input placeholder="stacks needed" style={{color:"orange", fontSize:"20px"}} size="20" name="stacks" className="py" required type="text"onChange={gas}   value={ind.stacks} /><br/>
+            <input placeholder="stacks needed" style={{color:"orange", opacity:"0.6", fontSize:"20px"}} size="20" name="stacks" className="py" required type="text"onChange={gas}   value={ind.stacks} /><br/>
 <br/>
-            <select   className="boss" style={{color:"black", padding:"5px"}}   name="type" onChange={gas} valu={ind.type}>
+            <select   className="boss" style={{color:"black", opacity:"0.6", width:"250px", fontSize:"14px", padding:"5px"}}   name="type" onChange={gas} valu={ind.type}>
                 <option>select job type</option>
                 <option>fully onsite</option>
                 <option>fully remote</option>
             </select>
 <br/>
 <br></br>
-        <button type="submit"  style={{color:"black", padding:"6px"}}  className="py">submit</button> </form> <h4 style={{opacity:"0.7"}}>Or</h4> <a  target="blank" href="mailto:deimoddorgutech@gmail.com"><button  style={{color:"black",  padding:"6px"}}  className="py">Send mail</button></a>
+        <button type="submit"  style={{color:"black", width:"250px", opacity:"0.6", fontSize:"13px", padding:"6px"}}  className="py">submit</button> </form> <h4 style={{opacity:"0.6", color:"white"}}>Or</h4> <a  target="blank" href="mailto:deimoddorgutech@gmail.com"><button  style={{color:"black", fontSize:"13px", opacity:"0.6", width:"250px", padding:"6px"}}  className="py">Send mail</button></a>
         
            
             
@@ -129,7 +129,7 @@ Kotlin
          <br/>   
 <div className="exper">
 <a id="ab"> <h3>About me</h3></a>
-    Am dorgu deimo a front end web designer and <br />developer based in Nigeria.
+    Am dorgu deimo a front <br/>end web designer and <br />developer based in Nigeria.
     <br/> mobile: 08167693412
     <br/>Address: no 36 erepa road yenagoa<br/>
     Email:deimodorgutech@gmail
@@ -142,14 +142,14 @@ Kotlin
 
 
      <br/>
-<a id="tah"><div id="projhead">..Recent projects</div></a>
+<a id="tah"><div id="projhead">Recent projects</div></a>
 <div className="projectbox">
 
 <a  target="blank" href="
 https://play.google.com/store/apps/details?id=baap.app&referrer=utm_source%3Dapps.facebook.com%26utm_campaign%3Dfb4a%26utm_content%3D%257B%2522app%2522%253A0%252C%2522t%2522%253A1671969462%252C%2522source%2522%253Anull%257D
 
 "><div><span id="project1">Baap app</span><br /><img  src="baap.png"/></div></a>
-<a  target="blank" href="https://play.google.com/store/apps/details?id=com.dr_recruiter"><div><span id="project2">Dr recruiter</span><br /><img  src="dr.png"/></div></a>
+<a  target="blank" href="https://play.google.com/store/apps/details?id=com.dr_recruiter"><div><span id="project2"> Recruiter</span><br /><img  src="dr.png"/></div></a>
 <a  target="blank" href="http://13.235.74.134"><div><span id="project3">Bike site</span><br /><img  src="wep.png"/></div></a>
 <a  target="blank" href="https://www.rainforestcafe.com"><div><span id="project4">forest cafe</span><br /><img  src="rainforest.png"/></div></a>
 <a  target="blank" href="https://quizninja.netlify.app/#/"><div><span id="project5">   Quiz ninja</span><br /><img  src="ninja.png"/></div></a>
