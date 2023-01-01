@@ -20,9 +20,7 @@ return(
 <div>
 <nav>
 <div id="firstcode">
-<span className="up"><a  href="#ab">About</a></span>
-<span className="up"><a  href="#hir">Hire me</a></span>
-<span className="up"><a href="myResume.pdf" download="Cv">download cv</a></span>
+<a href="myResume.pdf" download="Cv">Download Cv</a>
 </div>
 </nav>
 
@@ -41,8 +39,8 @@ return(
     <div id="mydescription">Am a frontend web developer.</div>
     
     <div className="rot2">
-    <a  href="#hir"><span className="rot1">hire me</span></a>
-    <a  href="#tah"><span className="rot1">portfolio</span></a>
+    <Link to="/Contact"><span className="rot1">Contact Me</span></Link>
+    <a  href="#tah"><span className="rot1">Projects</span></a>
     </div>
 </div>
 
@@ -94,52 +92,26 @@ Kotlin
 
 </div>
 
-<br/><br/>
-<div id="contact1">
+<br/>
+
 
 <div className="exper">
  <h3>Experiences</h3>
  Front end web and mobile developer
+ <br/> 
+ with three years of experience in freelance <br/> 
+ and fulltime jobs...
 
- with three years of experience in freelance 
- and fulltime jobs...</div>
-
-<br/>
-<div id="inputs">
-<a  id="hir"><span>Contact form</span></a>
-                <form action="https://www.formsubmit.co/deimodorgutech@gmail.com" method="post">
-            <input placeholder="company name"  style={{color:"orange", opacity:"0.6", fontSize:"20px"}} size="20" className="py" name="company" required type="text"onChange={gas}   value={ind.company} /><br/><br/>
-            <input  placeholder="role"  style={{color:"orange", opacity:"0.6", fontSize:"20px"}} size="20" type="text"  className="py" name="role"  required onChange={gas}  value={ind.role} /><br/><br/>
-            <input type="text" placeholder="country" style={{color:"orange", opacity:"0.6", fontSize:"20px"}} size="20" name="country" className="py"required onChange={gas} value={ind.country}  /><br/><br/>
-
-            <input placeholder="stacks needed" style={{color:"orange", opacity:"0.6", fontSize:"20px"}} size="20" name="stacks" className="py" required type="text"onChange={gas}   value={ind.stacks} /><br/>
-<br/>
-            <select   className="boss" style={{color:"black", opacity:"0.6", width:"250px", fontSize:"14px", padding:"5px"}}   name="type" onChange={gas} valu={ind.type}>
-                <option>select job type</option>
-                <option>fully onsite</option>
-                <option>fully remote</option>
-            </select>
-<br/>
-<br></br>
-        <button type="submit"  style={{color:"black", width:"250px", opacity:"0.6", fontSize:"13px", padding:"6px"}}  className="py">submit</button> </form> <h4 style={{opacity:"0.6", color:"white"}}>Or</h4> <a  target="blank" href="mailto:deimoddorgutech@gmail.com"><button  style={{color:"black", fontSize:"13px", opacity:"0.6", width:"250px", padding:"6px"}}  className="py">Send mail</button></a>
-        
-           
-            
-</div>
          <br/>   
-<div className="exper">
+         <br/> 
 <a id="ab"> <h3>About me</h3></a>
     Am dorgu deimo a front <br/>end web designer and <br />developer based in Nigeria.
     <br/> mobile: 08167693412
     <br/>Address: no 36 erepa road yenagoa<br/>
     Email:deimodorgutech@gmail
 </div>
-           </div>
+           
             
-
-
-
-
 
      <br/>
 <a id="tah"><div id="projhead">Recent projects</div></a>
