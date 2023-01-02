@@ -2,6 +2,12 @@
  import React from 'react'
  import {useState} from 'react'
  import {Link} from 'react-router-dom';
+ //import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+ //import { faCoffee, faArrowRight, faCog, faGears, fahome, faNavicon, faBell, faEnvelope, faArrowLeft,  faUsers, faTv, faUniversity, faCartPlus, faCircle, faSearch, faLock, faAdjust, faBook, faFolder, faQuestion, faMoon, faToggleOn, faVideoCamera, faHistory, faNewspaper, faPuzzlePiece } from '@fortawesome/free-solid-svg-icons';
+//import { faExpeditedssl } from '@fortawesome/free-brands-svg-icons';
+
+
+
 
     export default function Phome2 (){
 
@@ -20,7 +26,7 @@ return(
 <div>
 <nav>
 <div id="firstcode">
-<a href="myResume.pdf" download="Cv">Download Cv</a>
+<Link to="/Contact">Contact me</Link>
 </div>
 </nav>
 
@@ -32,14 +38,14 @@ return(
        
 
 <div className="plate2">
-    <h2 id="portfollio" >..portfolio</h2>
+    <h2 id="portfollio" >.portfolio</h2>
    
     <span id="hello">Hello, Am </span><span id="mypic"><img  src="usepic.png"/></span>
     <h1 id="myname">DEIMO DORGU</h1> 
     <div id="mydescription">Am a frontend web developer.</div>
     
     <div className="rot2">
-    <Link to="/Contact"><span className="rot1">Contact Me</span></Link>
+    <a href="myResume.pdf" download="Cv"><span className="rot1">Download Cv</span></a>
     <a  href="#tah"><span className="rot1">Projects</span></a>
     </div>
 </div>
@@ -134,10 +140,10 @@ https://play.google.com/store/apps/details?id=baap.app&referrer=utm_source%3Dapp
 <footer className="footer">
 <br/>
 <div className="social">
-        <a  target="_blank" href="https://www.facebook.com/dorgu.deimo"><img src="reatface.png" /></a>
-      <a  target="_blank" href="https://www.instagram.com/p/CVcgPRWMQWO/?igshid=YmMyMTA2M2"><img src="realinsta.png" /></a>
-      <a  target="_blank" href="https://twitter.com/Deimo27279785/status/1570176314971136002?s=20&t=pQrF2a9T6Zo42IUUJtmCbA"><img src="realtwit.png" /></a>
-      <a  target="_blank" href="mailto:deimoddorgutech@gmail.com"><img src="realwhats.png" /></a>
+        <a  target="_blank" href="https://www.facebook.com/dorgu.deimo"><img src="darkface.png" /></a>
+      <a  target="_blank" href="https://www.instagram.com/p/CVcgPRWMQWO/?igshid=YmMyMTA2M2"><img src="darkinst.png" /></a>
+      <a  target="_blank" href="https://twitter.com/Deimo27279785/status/1570176314971136002?s=20&t=pQrF2a9T6Zo42IUUJtmCbA"><img src="darkowit.png" /></a>
+      <a  target="_blank" href="mailto:deimoddorgutech@gmail.com"><img src="darkwats.png" /></a>
        
 </div>
 <div id="deimo">Dorgu Deimo page</div>

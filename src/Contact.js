@@ -2,6 +2,13 @@
  import React from 'react'
  import {useState} from 'react'
  import {Link} from 'react-router-dom';
+ //import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+ //import { faCoffee, faArrowRight, faCog, faGears, fahome, faNavicon, faBell, faEnvelope, faArrowLeft,  faUsers, faTv, faUniversity, faCartPlus, faCircle, faSearch, faLock, faAdjust, faBook, faFolder, faQuestion, faMoon, faToggleOn, faVideoCamera, faHistory, faNewspaper, faPuzzlePiece } from '@fortawesome/free-solid-svg-icons';
+//import { faExpeditedssl } from '@fortawesome/free-brands-svg-icons';
+
+
+
+
 
     export default function Contact (){
 
@@ -15,6 +22,7 @@
             }})}
         
 
+//<FontAwesomeIcon   className="itemcon2" icon={faBook}></FontAwesomeIcon>
 
 return(
 <div>
@@ -29,7 +37,7 @@ return(
 
 
 <div id="inputs">
-<span>Contact form</span>
+<span id="tok">Contact form</span>
                 <form action="https://www.formsubmit.co/deimodorgutech@gmail.com" method="post">
             <input placeholder="company name"   size="24"  name="company" required type="text"onChange={gas}   value={ind.company} /><br/><br/>
             <input  placeholder="role"   size="24" type="text"  className="py" name="role"  required onChange={gas}  value={ind.role} /><br/><br/>
@@ -56,13 +64,17 @@ return(
 
 
 
-<footer className="footer">
+<footer className="footer2">
 <br/>
+
+
+
+
 <div className="social">
-        <a  target="_blank" href="https://www.facebook.com/dorgu.deimo"><img src="reatface.png" /></a>
-      <a  target="_blank" href="https://www.instagram.com/p/CVcgPRWMQWO/?igshid=YmMyMTA2M2"><img src="realinsta.png" /></a>
-      <a  target="_blank" href="https://twitter.com/Deimo27279785/status/1570176314971136002?s=20&t=pQrF2a9T6Zo42IUUJtmCbA"><img src="realtwit.png" /></a>
-      <a  target="_blank" href="mailto:deimoddorgutech@gmail.com"><img src="realwhats.png" /></a>
+        <a  target="_blank" href="https://www.facebook.com/dorgu.deimo"><img src="darkface.png"/></a>
+      <a  target="blank" href="https://www.instagram.com/p/CVcgPRWMQWO/?igshid=YmMyMTA2M2"><img src="darkinst.png" /></a>
+      <a  target="_blank" href="https://twitter.com/Deimo27279785/status/1570176314971136002?s=20&t=pQrF2a9T6Zo42IUUJtmCbA"><img src="darkowit.png" /></a>
+      <a  target="_blank" href="mailto:deimoddorgutech@gmail.com"><img src="darkwats.png" /></a>
        
 </div>
 <div id="deimo">Dorgu Deimo page</div>
