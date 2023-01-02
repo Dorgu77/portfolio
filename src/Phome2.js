@@ -56,7 +56,7 @@ return(
 <div className="skillbox">
 
 
-<div> <img src="frontend.png" /><h5 className="stacks">Front end</h5><div className="stackmid">we design and develop scalable frontend layouts from idea stage to product level..
+<div> <img src="front.png" /><h5 className="stacks">Front end</h5><div className="stackmid">we design and develop scalable frontend layouts from idea stage to product level..
 Our engineers are equiped with skills like..<br/>
 <div style={{textAlign:"center"}}>
 <b>Javascript <br/>
@@ -67,7 +67,7 @@ React.js</b>
 </div>
 </div>
 
-<div> <img src="backend.png" /><h5 className="stacks">Back end</h5><div className="stackmid">we design and develop scalable back end APIs and servers from idea stage to product level..
+<div> <img src="developer.png" /><h5 className="stacks">Back end</h5><div className="stackmid">we design and develop scalable back end APIs and servers from idea stage to product level..
 Our engineers are equiped with skills like..<br/>
 <div style={{textAlign:"center"}}>
 <b>Node.js <br/>
@@ -85,7 +85,7 @@ MongoDB<br/></b>
 </div></div>
 
 
-<div> <img src="mobile.png" /><h5 className="stacks">Android</h5><div className="stackmid">we design and develop scalable frontend layouts from idea stage to product level,
+<div> <img src="android.png" /><h5 className="stacks">Android</h5><div className="stackmid">we design and develop scalable frontend layouts from idea stage to product level,
 products are bulit for both android and ios platforms..
 Our engineers are equiped with skills like..
 <div style={{textAlign:"center"}}>
