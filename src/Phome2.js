@@ -38,7 +38,7 @@ return(
        
 
 <div className="plate2">
-    <h2 id="portfollio" >.portfolio</h2>
+    <h2 id="portfollio" >portfolio</h2>
    
     <span id="hello">Hello, Am </span><span id="mypic"><img  src="usepic.png"/></span>
     <h1 id="myname">DEIMO DORGU</h1> 
@@ -146,8 +146,8 @@ https://play.google.com/store/apps/details?id=baap.app&referrer=utm_source%3Dapp
       <a  target="_blank" href="mailto:deimoddorgutech@gmail.com"><img src="darkwats.png" /></a>
        
 </div>
-<div id="deimo">Dorgu Deimo page</div>
-<div id="copywrite">@copywrite All rights reserved..</div>
+<div className="deimo">Dorgu Deimo page</div>
+<div className="copywrite">@copywrite All rights reserved..</div>
 </footer>
 
 </div>

@@ -62,7 +62,7 @@
                                                                                                                 }
                                                                                                                 
                                                                                                                 .footer2 {
-                                                                                                                    margin-top: 113px;
+                                                                                                                    margin-top: 120px;
                                                                                                                     background-color: rgb(1, 1, 36);
                                                                                                                 }
                                                                                                                 
@@ -152,7 +152,7 @@
                                                                                                                 
                                                                                                                 #firstcode a {
                                                                                                                     opacity: 0.6;
-                                                                                                                    font-size: 14px;
+                                                                                                                    font-size: 18px;
                                                                                                                     margin: 5px;
                                                                                                                     color: white;
                                                                                                                 }
@@ -177,13 +177,17 @@
                                                                                                                 }
                                                                                                                 
                                                                                                                 .stacks {
+                                                                                                                    color: rgb(89, 173, 5);
                                                                                                                     opacity: 0.7;
                                                                                                                     text-shadow: 1px 1px 1px rgb(13, 80, 1), -1px -1px 1px rgb(20, 103, 2);
                                                                                                                     margin-bottom: 6px;
                                                                                                                     text-align: center;
                                                                                                                     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
                                                                                                                     font-size: 30px;
-                                                                                                                    color: rgb(10, 16, 177);
+                                                                                                                }
+                                                                                                                
+                                                                                                                .stacks:hover {
+                                                                                                                    color: rgb(17, 17, 150);
                                                                                                                 }
                                                                                                                 
                                                                                                                 .skillbox {
@@ -205,7 +209,7 @@
                                                                                                                 }
                                                                                                                 
                                                                                                                 .skillbox>div>img {
-                                                                                                                    margin-left: 118px;
+                                                                                                                    margin-left: 119px;
                                                                                                                     opacity: 1;
                                                                                                                     height: 50px;
                                                                                                                     width: 50px;
@@ -277,14 +281,28 @@
                                                                                                                     text-shadow: 1px 1px 3px blue, -1px -1px 6px blue;
                                                                                                                 }
                                                                                                                 
-                                                                                                                #deimo {
+                                                                                                                .deimo {
                                                                                                                     text-align: center;
                                                                                                                     opacity: 0.6;
                                                                                                                     font-size: 15px;
                                                                                                                     color: rgb(91, 91, 205);
                                                                                                                 }
                                                                                                                 
-                                                                                                                #copywrite {
+                                                                                                                .deimo2 {
+                                                                                                                    text-align: center;
+                                                                                                                    opacity: 0.6;
+                                                                                                                    font-size: 15px;
+                                                                                                                    color: rgb(91, 91, 205);
+                                                                                                                }
+                                                                                                                
+                                                                                                                .copywrite2 {
+                                                                                                                    text-align: center;
+                                                                                                                    opacity: 0.6;
+                                                                                                                    font-size: 13px;
+                                                                                                                    color: rgb(91, 91, 205);
+                                                                                                                }
+                                                                                                                
+                                                                                                                .copywrite {
                                                                                                                     text-align: center;
                                                                                                                     opacity: 0.6;
                                                                                                                     font-size: 13px;
@@ -296,17 +314,25 @@
                                                                                                                     text-align: center;
                                                                                                                 }
                                                                                                                 
-                                                                                                                .social a img {
-                                                                                                                    width: 17px;
-                                                                                                                    height: 17px;
+                                                                                                                .social2 {
+                                                                                                                    bottom: 0px;
+                                                                                                                    text-align: center;
+                                                                                                                }
+                                                                                                                
+                                                                                                                .social2 a img {
+                                                                                                                    width: 20px;
+                                                                                                                    height: 20px;
                                                                                                                     margin: 5px;
                                                                                                                     border-radius: 11px;
                                                                                                                     opacity: 0.6;
                                                                                                                 }
                                                                                                                 
-                                                                                                                .social a img:hover {
+                                                                                                                .social a img {
                                                                                                                     width: 20px;
                                                                                                                     height: 20px;
+                                                                                                                    margin: 5px;
+                                                                                                                    border-radius: 11px;
+                                                                                                                    opacity: 0.6;
                                                                                                                 }
                                                                                                                 
                                                                                                                 .projectbox {

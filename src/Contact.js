@@ -70,15 +70,15 @@ return(
 
 
 
-<div className="social">
+<div className="social2">
         <a  target="_blank" href="https://www.facebook.com/dorgu.deimo"><img src="darkface.png"/></a>
       <a  target="blank" href="https://www.instagram.com/p/CVcgPRWMQWO/?igshid=YmMyMTA2M2"><img src="darkinst.png" /></a>
       <a  target="_blank" href="https://twitter.com/Deimo27279785/status/1570176314971136002?s=20&t=pQrF2a9T6Zo42IUUJtmCbA"><img src="darkowit.png" /></a>
       <a  target="_blank" href="mailto:deimoddorgutech@gmail.com"><img src="darkwats.png" /></a>
        
 </div>
-<div id="deimo">Dorgu Deimo page</div>
-<div id="copywrite">@copywrite All rights reserved..</div>
+<div className="deimo2">Dorgu Deimo page</div>
+<div className="copywrite2">@copywrite All rights reserved..</div>
 </footer>
 
 </div>
