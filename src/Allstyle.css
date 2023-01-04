@@ -6,7 +6,7 @@
                                                 
                                                 html,
                                                 body {
-                                                    background-image: url("C:\Users\USER\Desktop\current projects\portfollio\public\blue2.png");
+                                                    background-image: url("C:\Users\USER\Desktop\current projects\portfollio\src\blue2.png");
                                                 }
                                                 
                                                 select {
@@ -135,7 +135,7 @@
                                                 }
                                                 
                                                 #mypic>img {
-                                                    border: 1px solid green;
+                                                    border: 2px solid green;
                                                     width: 100px;
                                                     height: 110px;
                                                     opacity: 0.8;
@@ -364,7 +364,7 @@
                                                 #project1 {
                                                     font-size: 18px;
                                                     color: rgb(149, 174, 204);
-                                                    left: 66px;
+                                                    left: 60px;
                                                     position: absolute;
                                                     opacity: 0.9;
                                                     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
@@ -372,7 +372,7 @@
                                                 
                                                 #project2 {
                                                     font-size: 18px;
-                                                    right: 70px;
+                                                    right: 64px;
                                                     position: absolute;
                                                     opacity: 0.9;
                                                     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -380,7 +380,7 @@
                                                 }
                                                 
                                                 #project3 {
-                                                    left: 70px;
+                                                    left: 64px;
                                                     position: absolute;
                                                     opacity: 0.9;
                                                     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -389,7 +389,7 @@
                                                 
                                                 #project4 {
                                                     font-size: 18px;
-                                                    right: 70px;
+                                                    right: 64px;
                                                     position: absolute;
                                                     opacity: 0.9;
                                                     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -398,7 +398,7 @@
                                                 
                                                 #project5 {
                                                     font-size: 18px;
-                                                    left: 64px;
+                                                    left: 56px;
                                                     position: absolute;
                                                     opacity: 0.9;
                                                     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -407,7 +407,7 @@
                                                 
                                                 #project6 {
                                                     font-size: 18px;
-                                                    right: 60px;
+                                                    right: 54px;
                                                     position: absolute;
                                                     opacity: 0.9;
                                                     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
