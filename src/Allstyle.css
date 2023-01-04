@@ -6,6 +6,7 @@
                                                 
                                                 html,
                                                 body {
+                                                    z-index: -1;
                                                     background-image: url("blue2.png");
                                                 }
                                                 
@@ -51,17 +52,18 @@
                                                 }
                                                 
                                                 nav {
+                                                    z-index: 1;
                                                     position: sticky;
                                                     position: -wekit-sticky;
                                                     top: 0px;
                                                     box-shadow: 2px 1px 4px rgb(24, 143, 121)-1px -1px 2px rgb(136, 13, 13);
                                                     height: 34px;
-                                                    background-color: rgb(1, 18, 37);
+                                                    background-color: rgb(2, 16, 34);
                                                 }
                                                 
                                                 .footer {
-                                                    margin-top: 25px;
                                                     background-color: rgb(1, 18, 37);
+                                                    margin-top: 25px;
                                                 }
                                                 
                                                 .footer2 {
