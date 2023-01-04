@@ -34,8 +34,8 @@ return(
 
 
 
-
-
+<br />
+<br />
 <div id="inputs">
 <span id="tok">Contact form</span>
                 <form action="https://www.formsubmit.co/deimodorgutech@gmail.com" method="post">
@@ -55,7 +55,7 @@ return(
 <br></br>
 
 
-<span>  <button type="submit" >submit</button>              <span style={{opacity:"0.6", color:"white"}}>Or</span>                  <a  target="blank" href="mailto:deimoddorgutech@gmail.com"><button  style={{color:"black", fontSize:"13px", opacity:"0.6", padding:"8px"}}  className="py">Send mail</button></a></span>
+<span>  <button type="submit" >submit</button>              <span style={{opacity:"0.6", color:"white"}}>Or</span>                  <a  target="blank" href="mailto:deimoddorgutech@gmail.com"><button  style={{color:"black", fontSize:"19px", opacity:"0.6", padding:"8px"}}  className="py">Send mail</button></a></span>
   
            </div>
             

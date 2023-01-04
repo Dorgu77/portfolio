@@ -45,7 +45,7 @@ return(
     <div id="mydescription">Am a frontend web developer.</div>
     
     <div className="rot2">
-    <a href="myResume.pdf" download="Cv"><span className="rot1">Download Cv</span></a>
+    <a href="myResume.pdf" download="Cv"><span className="rot1">My Resume</span></a>
     <a  href="#tah"><span className="rot1">Projects</span></a>
     </div>
 </div>
