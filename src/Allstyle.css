@@ -10,7 +10,7 @@
                                                 }
                                                 
                                                 select {
-                                                    width: 350px;
+                                                    width: 330px;
                                                     padding: 10px;
                                                     font-stretch: 23px;
                                                     color: rgb(196, 165, 165);
@@ -21,7 +21,7 @@
                                                 }
                                                 
                                                 input {
-                                                    width: 350px;
+                                                    width: 330px;
                                                     padding: 10px;
                                                     font-stretch: 23px;
                                                     color: rgb(196, 165, 165);
@@ -52,7 +52,7 @@
                                                 
                                                 nav {
                                                     box-shadow: 2px 1px 4px rgb(24, 143, 121)-1px -1px 2px rgb(136, 13, 13);
-                                                    height: 30px;
+                                                    height: 38px;
                                                     background-color: rgb(1, 18, 37);
                                                 }
                                                 
@@ -86,10 +86,10 @@
                                                 
                                                 #mydescription {
                                                     opacity: 0.8;
-                                                    margin-left: 6px;
+                                                    margin-left: 4px;
                                                     margin-top: 1px;
                                                     margin-bottom: 10px;
-                                                    font-size: 16px;
+                                                    font-size: 15px;
                                                     color: rgb(122, 122, 185);
                                                     text-shadow: 2px 1px 4px rgb(24, 143, 121)-1px -1px 2px rgb(136, 13, 13);
                                                 }
@@ -143,7 +143,9 @@
                                                 }
                                                 
                                                 #firstcode {
-                                                    margin-top: 5px;
+                                                    border-radius: 5px;
+                                                    border: 1px solid white;
+                                                    margin-top: 8px;
                                                     margin-left: 20px;
                                                     display: inline-block;
                                                 }
@@ -355,9 +357,9 @@
                                                 #projhead {
                                                     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
                                                     margin: 18px;
-                                                    opacity: 0.8;
+                                                    opacity: 0.7;
                                                     text-align: center;
-                                                    font-size: 30px;
+                                                    font-size: 32px;
                                                     color: rgb(48, 241, 228);
                                                 }
                                                 
