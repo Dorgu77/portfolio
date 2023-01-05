@@ -58,7 +58,7 @@ return(
  <button type="submit" >submit</button>   
   </form>     
   <h4 style={{opacity:"0.7", color:"white"}}>Or</h4>   
-  <a  target="blank" href="mailto:deimoddorgutech@gmail.com"><button  style={{color:"black", fontSize:"19px", opacity:"0.6", padding:"8px"}}  className="py">Send mail</button></a>
+  <a  target="blank" href="mailto:deimoddorgutech@gmail.com"><button  style={{color:"black", fontSize:"19px", opacity:"0.8", padding:"8px"}}  className="py">Send mail</button></a>
   
            </div>
             
