@@ -27,7 +27,8 @@
 return(
 <div>
 <nav>
-<div id="firstcode">
+<span className="head"><img className="cod" src="developer.png" />welcome to my world..</span>
+<div className="firstcode">
 <span className="up"><Link to="/">Home</Link></span>
 </div>
 </nav>
@@ -50,12 +51,14 @@ return(
                 <option>fully onsite</option>
                 <option>fully remote</option>
             </select>
-            </form>
+            
 <br/>
 <br></br>
 
-
-<span>  <button type="submit" >submit</button>              <span style={{opacity:"0.6", color:"white"}}>Or</span>                  <a  target="blank" href="mailto:deimoddorgutech@gmail.com"><button  style={{color:"black", fontSize:"19px", opacity:"0.6", padding:"8px"}}  className="py">Send mail</button></a></span>
+ <button type="submit" >submit</button>   
+  </form>     
+  <h4 style={{opacity:"0.7", color:"white"}}>Or</h4>   
+  <a  target="blank" href="mailto:deimoddorgutech@gmail.com"><button  style={{color:"black", fontSize:"19px", opacity:"0.6", padding:"8px"}}  className="py">Send mail</button></a>
   
            </div>
             

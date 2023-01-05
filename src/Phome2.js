@@ -25,8 +25,11 @@
 return(
 <div>
 <nav>
-<div id="firstcode">
-<Link to="/Contact">Contact</Link>
+<span className="head"><img className="cod" src="developer.png" />welcome to my world..</span>
+<div className="firstcode">
+   
+<Link to="/Contact">contact</Link>
+
 </div>
 </nav>
 
@@ -56,7 +59,7 @@ return(
 <div className="skillbox">
 
 
-<div> <img src="front.png" /><h5 className="stacks">Front end</h5><div className="stackmid">we design and develop scalable frontend layouts from idea stage to product level..
+<div> <img src="front.png" /><h5 className="stacks">Front end</h5><div className="stackmid">we design and develop scalable frontend layouts from idea stage to product level.. <br/>
 Our engineers are equiped with skills like..<br/>
 <div style={{textAlign:"center"}}>
 <b>Javascript <br/>
@@ -67,7 +70,7 @@ React.js</b>
 </div>
 </div>
 
-<div> <img src="developer.png" /><h5 className="stacks">Back end</h5><div className="stackmid">we design and develop scalable back end APIs and servers from idea stage to product level..
+<div> <img src="developer.png" /><h5 className="stacks">Back end</h5><div className="stackmid">we design and develop scalable back end APIs and servers from idea stage to product level.. <br/>
 Our engineers are equiped with skills like..<br/>
 <div style={{textAlign:"center"}}>
 <b>Node.js <br/>
@@ -75,7 +78,7 @@ Express <br/>
 </b>
 </div></div></div>
 
-<div> <img src="database.png" /><h5 className="stacks">DataBase</h5><div className="stackmid">we design and develop scalable frontend layouts from idea stage to product level..
+<div> <img src="database.png" /><h5 className="stacks">DataBase</h5><div className="stackmid">we design and develop scalable data base systems from idea stage to product level.. <br/>
 Our engineers are equiped with skills like..<br/>
 <div style={{textAlign:"center"}}>
 <b>
@@ -85,8 +88,8 @@ MongoDB<br/></b>
 </div></div>
 
 
-<div> <img src="android.png" /><h5 className="stacks">Android</h5><div className="stackmid">we design and develop scalable frontend layouts from idea stage to product level,
-products are bulit for both android and ios platforms..
+<div> <img src="android.png" /><h5 className="stacks">Android</h5><div className="stackmid">we design and develop scalable moblie frontend layouts from idea stage to product level, 
+products are bulit for both android and ios platforms.. <br/>
 Our engineers are equiped with skills like..
 <div style={{textAlign:"center"}}>
 <b>
